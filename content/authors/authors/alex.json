@@ -1,0 +1,13 @@
+{
+  "id": "alex",
+  "name": "Alexander Grischuk",
+  "image": "https://api.adorable.io/avatars/150/test.png",
+  "url": "https://www.linkedin.com/in/alxgi/",
+  "location": "Berlin, Germany",
+  "bio": "Frontend Engineer at Signavio. I like to build apps with React while keeping good UX in mind.",
+  "socialUrls": [
+    "https://github.com/alexandr-g",
+    "https://twitter.com/alxgri",
+    "mailto:alexgrischuk@gmail.com"
+  ]
+}
