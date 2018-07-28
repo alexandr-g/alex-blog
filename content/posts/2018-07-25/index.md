@@ -25,7 +25,7 @@ Here's what I learned.
 - It's a long-term investment. By long term, I mean 5-10 years
 - There are **passively** and **actively** managed fonds
 - They all follow some index, like S&P 500 Index for example
-- There could country-specific details (I'm talking from Germany perspective)
+- There could be country-specific details. I'm talking from Germany perspective.
 - Rather than buying individual company stock, with ETF you invest in a variety of companies stocks
 
 ## Step 1. Do your own research
