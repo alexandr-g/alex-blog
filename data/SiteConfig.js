@@ -6,7 +6,7 @@ module.exports = {
   siteTitleAlt: "Alexander Grischuk - Frontend Engineer", // Alternative site title for SEO.
   siteLogo:
     "https://haysclark.github.io/gatsby-starter-casper/logos/logo-1024.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
-  siteUrl: "https://alexandr-g.github.io", // Domain of your website without pathPrefix.
+  siteUrl: "http://grischuk.de/", // Domain of your website without pathPrefix.
   pathPrefix: "/alex-blog/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
   siteDescription:
     "Frontend Engineer from Berlin with a passion for modern web development", // Website description used for RSS feeds/meta description tag.
