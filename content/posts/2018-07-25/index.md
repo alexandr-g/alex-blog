@@ -14,9 +14,9 @@ tags:
 
 # How to invest in ETF?
 
-**Hi there!** 
+**Hi there!**
 
-Recently I started to do some research on ETF topic and how I can invest in it. In general, I wanted to learn more about ETF fonds and immediately find myself overwhelmed by tons of available information.
+Recently I've started to do some research on ETF topic and how I can invest in it. In general, I wanted to learn more about ETF fonds and immediately find myself overwhelmed by tons of available information.
 
 Here's what I learned.
 
