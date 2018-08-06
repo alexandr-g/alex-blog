@@ -1,16 +1,28 @@
 {
   "assetsByChunkName": {
+    "path---visual-studio-code-vs-code-extensions-that-i-use-daily": [
+      "path---visual-studio-code-vs-code-extensions-that-i-use-daily-7ad2b9c7825567356c65.js",
+      "path---visual-studio-code-vs-code-extensions-that-i-use-daily-7ad2b9c7825567356c65.js.map"
+    ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
+    "path---tags-javascript": [
+      "path---tags-javascript-e76a9c28f077b87a096c.js",
+      "path---tags-javascript-e76a9c28f077b87a096c.js.map"
+    ],
     "component---src-layouts-index-jsx": [
-      "component---src-layouts-index-jsx-937f2af64ca96f387e7e.js",
-      "component---src-layouts-index-jsx-937f2af64ca96f387e7e.js.map"
+      "component---src-layouts-index-jsx-078eb46ac6a0c70f4e42.js",
+      "component---src-layouts-index-jsx-078eb46ac6a0c70f4e42.js.map"
+    ],
+    "path---tags-react": [
+      "path---tags-react-3a44673e11baf7525a90.js",
+      "path---tags-react-3a44673e11baf7525a90.js.map"
     ],
     "path---categories-tech": [
-      "path---categories-tech-e229d2bb20460770b720.js",
-      "path---categories-tech-e229d2bb20460770b720.js.map"
+      "path---categories-tech-a7c8eada92440b5ca383.js",
+      "path---categories-tech-a7c8eada92440b5ca383.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
@@ -25,8 +37,8 @@
       "component---src-templates-category-jsx-3f9f38b2a16b22af9077.js.map"
     ],
     "path---index": [
-      "path---index-d06025e9ccb6a510ebbf.js",
-      "path---index-d06025e9ccb6a510ebbf.js.map"
+      "path---index-1fb4d3058a24bdbd301c.js",
+      "path---index-1fb4d3058a24bdbd301c.js.map"
     ],
     "component---src-pages-about-jsx": [
       "component---src-pages-about-jsx-16dca089dee574aef9ce.js",
@@ -37,8 +49,8 @@
       "path---tags-fonds-608b49435237935a66fc.js.map"
     ],
     "path---three-simple-steps-to-invest-in-etf": [
-      "path---three-simple-steps-to-invest-in-etf-210ba8f71f5f1a4d7245.js",
-      "path---three-simple-steps-to-invest-in-etf-210ba8f71f5f1a4d7245.js.map"
+      "path---three-simple-steps-to-invest-in-etf-5a1bbe93672dcc143b7f.js",
+      "path---three-simple-steps-to-invest-in-etf-5a1bbe93672dcc143b7f.js.map"
     ],
     "component---src-templates-author-jsx": [
       "component---src-templates-author-jsx-d9dcb651194ebdae2ab7.js",
@@ -49,6 +61,10 @@
       "build-js-styles.css",
       "commons-dc53e1fc8eeb5fae369b.js.map",
       "build-js-styles.css.map"
+    ],
+    "path---tags-code-snippets": [
+      "path---tags-code-snippets-36c5277382f75256526d.js",
+      "path---tags-code-snippets-36c5277382f75256526d.js.map"
     ],
     "path---tags-etf": [
       "path---tags-etf-ae30af5c3ebdd13f23ab.js",
@@ -78,15 +94,19 @@
       "component---src-templates-post-jsx-3641f27e295dfa57db97.js",
       "component---src-templates-post-jsx-3641f27e295dfa57db97.js.map"
     ],
+    "path---tags-vscode": [
+      "path---tags-vscode-3103b657746eb15ddb5e.js",
+      "path---tags-vscode-3103b657746eb15ddb5e.js.map"
+    ],
     "app": [
-      "app-4494c8f2bff1c2752c56.js",
+      "app-5d85a7b7cc8054168d1d.js",
       "build-js-styles.css",
-      "app-4494c8f2bff1c2752c56.js.map",
+      "app-5d85a7b7cc8054168d1d.js.map",
       "build-js-styles.css.map"
     ],
     "path---author-alex": [
-      "path---author-alex-7daa7476243f76873dbe.js",
-      "path---author-alex-7daa7476243f76873dbe.js.map"
+      "path---author-alex-dcbd9441a6abce69d227.js",
+      "path---author-alex-dcbd9441a6abce69d227.js.map"
     ],
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
