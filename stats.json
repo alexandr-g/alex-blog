@@ -1,28 +1,36 @@
 {
   "assetsByChunkName": {
+    "path---tags-tech": [
+      "path---tags-tech-4c65284faa842e97a22c.js",
+      "path---tags-tech-4c65284faa842e97a22c.js.map"
+    ],
     "path---visual-studio-code-vs-code-extensions-that-i-use-daily": [
-      "path---visual-studio-code-vs-code-extensions-that-i-use-daily-7ad2b9c7825567356c65.js",
-      "path---visual-studio-code-vs-code-extensions-that-i-use-daily-7ad2b9c7825567356c65.js.map"
+      "path---visual-studio-code-vs-code-extensions-that-i-use-daily-87439dc0f1883343b40a.js",
+      "path---visual-studio-code-vs-code-extensions-that-i-use-daily-87439dc0f1883343b40a.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "path---tags-javascript": [
-      "path---tags-javascript-e76a9c28f077b87a096c.js",
-      "path---tags-javascript-e76a9c28f077b87a096c.js.map"
+      "path---tags-javascript-6ce372d9d018f597bb9c.js",
+      "path---tags-javascript-6ce372d9d018f597bb9c.js.map"
     ],
     "component---src-layouts-index-jsx": [
-      "component---src-layouts-index-jsx-078eb46ac6a0c70f4e42.js",
-      "component---src-layouts-index-jsx-078eb46ac6a0c70f4e42.js.map"
+      "component---src-layouts-index-jsx-937f2af64ca96f387e7e.js",
+      "component---src-layouts-index-jsx-937f2af64ca96f387e7e.js.map"
     ],
     "path---tags-react": [
       "path---tags-react-3a44673e11baf7525a90.js",
       "path---tags-react-3a44673e11baf7525a90.js.map"
     ],
     "path---categories-tech": [
-      "path---categories-tech-a7c8eada92440b5ca383.js",
-      "path---categories-tech-a7c8eada92440b5ca383.js.map"
+      "path---categories-tech-24e5d1d1b194827fb311.js",
+      "path---categories-tech-24e5d1d1b194827fb311.js.map"
+    ],
+    "path---top-well-paid-it-positions-in-germany": [
+      "path---top-well-paid-it-positions-in-germany-7384d25e31dd73f457c4.js",
+      "path---top-well-paid-it-positions-in-germany-7384d25e31dd73f457c4.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
@@ -36,9 +44,13 @@
       "component---src-templates-category-jsx-3f9f38b2a16b22af9077.js",
       "component---src-templates-category-jsx-3f9f38b2a16b22af9077.js.map"
     ],
+    "path---tags-it": [
+      "path---tags-it-8ba721a366c1ee54a198.js",
+      "path---tags-it-8ba721a366c1ee54a198.js.map"
+    ],
     "path---index": [
-      "path---index-1fb4d3058a24bdbd301c.js",
-      "path---index-1fb4d3058a24bdbd301c.js.map"
+      "path---index-7f16ec718a05f49645d3.js",
+      "path---index-7f16ec718a05f49645d3.js.map"
     ],
     "component---src-pages-about-jsx": [
       "component---src-pages-about-jsx-16dca089dee574aef9ce.js",
@@ -49,17 +61,17 @@
       "path---tags-fonds-608b49435237935a66fc.js.map"
     ],
     "path---three-simple-steps-to-invest-in-etf": [
-      "path---three-simple-steps-to-invest-in-etf-5a1bbe93672dcc143b7f.js",
-      "path---three-simple-steps-to-invest-in-etf-5a1bbe93672dcc143b7f.js.map"
+      "path---three-simple-steps-to-invest-in-etf-38473cfa911e14584ec0.js",
+      "path---three-simple-steps-to-invest-in-etf-38473cfa911e14584ec0.js.map"
     ],
     "component---src-templates-author-jsx": [
       "component---src-templates-author-jsx-d9dcb651194ebdae2ab7.js",
       "component---src-templates-author-jsx-d9dcb651194ebdae2ab7.js.map"
     ],
     "commons": [
-      "commons-dc53e1fc8eeb5fae369b.js",
+      "commons-9dc201e4b3cbb0479fa7.js",
       "build-js-styles.css",
-      "commons-dc53e1fc8eeb5fae369b.js.map",
+      "commons-9dc201e4b3cbb0479fa7.js.map",
       "build-js-styles.css.map"
     ],
     "path---tags-code-snippets": [
@@ -99,18 +111,22 @@
       "path---tags-vscode-3103b657746eb15ddb5e.js.map"
     ],
     "app": [
-      "app-5d85a7b7cc8054168d1d.js",
+      "app-61c7888662282e9bcb38.js",
       "build-js-styles.css",
-      "app-5d85a7b7cc8054168d1d.js.map",
+      "app-61c7888662282e9bcb38.js.map",
       "build-js-styles.css.map"
     ],
     "path---author-alex": [
-      "path---author-alex-dcbd9441a6abce69d227.js",
-      "path---author-alex-dcbd9441a6abce69d227.js.map"
+      "path---author-alex-7ca78640b53674b6885c.js",
+      "path---author-alex-7ca78640b53674b6885c.js.map"
     ],
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
       "path---about-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---tags-jobs": [
+      "path---tags-jobs-17c8addb1103e1afdae5.js",
+      "path---tags-jobs-17c8addb1103e1afdae5.js.map"
     ]
   }
 }
