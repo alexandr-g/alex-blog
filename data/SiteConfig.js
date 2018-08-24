@@ -2,7 +2,7 @@ module.exports = {
   blogPostDir: "posts", // The name of directory that contains your posts.
   blogAuthorDir: "authors", // The name of directory that contains your 'authors' folder.
   blogAuthorId: "alex", // The default and fallback author ID used for blog posts without a defined author.
-  siteTitle: "Alexander Grischuk - Frontend Engineer", // Site title.
+  siteTitle: "Alexander Grischuk", // Site title.
   siteTitleAlt: "Alexander Grischuk - Frontend Engineer", // Alternative site title for SEO.
   siteLogo:
     "https://haysclark.github.io/gatsby-starter-casper/logos/logo-1024.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
@@ -12,7 +12,7 @@ module.exports = {
     "Frontend Engineer from Berlin with a passion for modern web development", // Website description used for RSS feeds/meta description tag.
   siteCover:
     "https://images.unsplash.com/photo-1510936111840-65e151ad71bb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bcd2bf5b6271090e70ea12980ddb02d7&auto=format&fit=crop&w=2567&q=80", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
-  siteNavigation: true, // If navigation is enabled the Menu button will be visible
+  siteNavigation: false, // If navigation is enabled the Menu button will be visible
   siteRss: "/rss.xml", // Path to the RSS file.
   siteRssAuthor: "Casper User", // The author name used in the RSS file
   // siteFBAppID: "1825356251115265", // optional, sets the FB Application ID for using app insights
