@@ -1,20 +1,28 @@
 {
   "assetsByChunkName": {
+    "path---tags-refactoring": [
+      "path---tags-refactoring-fa9812322f6870bd2a6d.js",
+      "path---tags-refactoring-fa9812322f6870bd2a6d.js.map"
+    ],
+    "path---tags-programming": [
+      "path---tags-programming-b3378af7d0452945e7fa.js",
+      "path---tags-programming-b3378af7d0452945e7fa.js.map"
+    ],
     "path---tags-tech": [
-      "path---tags-tech-4c65284faa842e97a22c.js",
-      "path---tags-tech-4c65284faa842e97a22c.js.map"
+      "path---tags-tech-ec5e53666a823b8e5d8d.js",
+      "path---tags-tech-ec5e53666a823b8e5d8d.js.map"
     ],
     "path---visual-studio-code-vs-code-extensions-that-i-use-daily": [
-      "path---visual-studio-code-vs-code-extensions-that-i-use-daily-87439dc0f1883343b40a.js",
-      "path---visual-studio-code-vs-code-extensions-that-i-use-daily-87439dc0f1883343b40a.js.map"
+      "path---visual-studio-code-vs-code-extensions-that-i-use-daily-4838754817718e014583.js",
+      "path---visual-studio-code-vs-code-extensions-that-i-use-daily-4838754817718e014583.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "path---tags-javascript": [
-      "path---tags-javascript-6ce372d9d018f597bb9c.js",
-      "path---tags-javascript-6ce372d9d018f597bb9c.js.map"
+      "path---tags-javascript-9277d6ef9df8d5928310.js",
+      "path---tags-javascript-9277d6ef9df8d5928310.js.map"
     ],
     "component---src-layouts-index-jsx": [
       "component---src-layouts-index-jsx-937f2af64ca96f387e7e.js",
@@ -25,12 +33,12 @@
       "path---tags-react-3a44673e11baf7525a90.js.map"
     ],
     "path---categories-tech": [
-      "path---categories-tech-24e5d1d1b194827fb311.js",
-      "path---categories-tech-24e5d1d1b194827fb311.js.map"
+      "path---categories-tech-26a363ef585ff197ad58.js",
+      "path---categories-tech-26a363ef585ff197ad58.js.map"
     ],
     "path---top-well-paid-it-positions-in-germany": [
-      "path---top-well-paid-it-positions-in-germany-7384d25e31dd73f457c4.js",
-      "path---top-well-paid-it-positions-in-germany-7384d25e31dd73f457c4.js.map"
+      "path---top-well-paid-it-positions-in-germany-1546a1a763bcdb585f94.js",
+      "path---top-well-paid-it-positions-in-germany-1546a1a763bcdb585f94.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
@@ -45,12 +53,12 @@
       "component---src-templates-category-jsx-3f9f38b2a16b22af9077.js.map"
     ],
     "path---tags-it": [
-      "path---tags-it-8ba721a366c1ee54a198.js",
-      "path---tags-it-8ba721a366c1ee54a198.js.map"
+      "path---tags-it-2f4eca959b31fc79700d.js",
+      "path---tags-it-2f4eca959b31fc79700d.js.map"
     ],
     "path---index": [
-      "path---index-7f16ec718a05f49645d3.js",
-      "path---index-7f16ec718a05f49645d3.js.map"
+      "path---index-fd7a9d4ea080d7b25d3f.js",
+      "path---index-fd7a9d4ea080d7b25d3f.js.map"
     ],
     "component---src-pages-about-jsx": [
       "component---src-pages-about-jsx-16dca089dee574aef9ce.js",
@@ -61,8 +69,8 @@
       "path---tags-fonds-608b49435237935a66fc.js.map"
     ],
     "path---three-simple-steps-to-invest-in-etf": [
-      "path---three-simple-steps-to-invest-in-etf-38473cfa911e14584ec0.js",
-      "path---three-simple-steps-to-invest-in-etf-38473cfa911e14584ec0.js.map"
+      "path---three-simple-steps-to-invest-in-etf-7ee8ea0ae04dd8d19a61.js",
+      "path---three-simple-steps-to-invest-in-etf-7ee8ea0ae04dd8d19a61.js.map"
     ],
     "component---src-templates-author-jsx": [
       "component---src-templates-author-jsx-d9dcb651194ebdae2ab7.js",
@@ -90,6 +98,10 @@
       "component---src-templates-tag-jsx-20e23471da3d1e948797.js",
       "component---src-templates-tag-jsx-20e23471da3d1e948797.js.map"
     ],
+    "path---golden-rules-of-code-refactoring": [
+      "path---golden-rules-of-code-refactoring-5e77756b1740ae9f4e8d.js",
+      "path---golden-rules-of-code-refactoring-5e77756b1740ae9f4e8d.js.map"
+    ],
     "path---tags-stocks": [
       "path---tags-stocks-03966715cbd26e02887b.js",
       "path---tags-stocks-03966715cbd26e02887b.js.map"
@@ -111,14 +123,18 @@
       "path---tags-vscode-3103b657746eb15ddb5e.js.map"
     ],
     "app": [
-      "app-61c7888662282e9bcb38.js",
+      "app-f8c0553a18875e500236.js",
       "build-js-styles.css",
-      "app-61c7888662282e9bcb38.js.map",
+      "app-f8c0553a18875e500236.js.map",
       "build-js-styles.css.map"
     ],
+    "path---tags-code": [
+      "path---tags-code-b87dc3fd83e58eee647d.js",
+      "path---tags-code-b87dc3fd83e58eee647d.js.map"
+    ],
     "path---author-alex": [
-      "path---author-alex-7ca78640b53674b6885c.js",
-      "path---author-alex-7ca78640b53674b6885c.js.map"
+      "path---author-alex-149e8141a21d472204bd.js",
+      "path---author-alex-149e8141a21d472204bd.js.map"
     ],
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
