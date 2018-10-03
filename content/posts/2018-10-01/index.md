@@ -13,24 +13,26 @@ tags:
     - programming
 ---
 
-When working on any project you'll eventually ended up having legacy code which needs to be refactored, dependencies updated, or you'd like to migrate to a new hot framework.
+When working on any project you'll eventually end up having legacy code which needs to be refactored, dependencies updated, or you'd like to migrate to a new hot framework.
 
-Below are some rules which I found helpful from my experience to follow while doing refactoring.
+Below are some rules which I found helpful to follow while doing refactoring.
 
 ## 1. Make it work then make it better
 
-You move files, you renamed method/function, encapsulate logic in helper util, now you want to fix tests, fix Flow types, now you start changing logic using functional approach, then using functions from `lodash`. Wait, stop, breathe, don't rush. 
+Perhaps you moved files, you renamed methods/functions, encapsulate logic in helper utility, now you want to fix tests, fix types, now you start changing logic using a functional approach, then using functions from `lodash`. Wait, stop, breathe, don't rush. 
 
-First thing to remember after refactoring your application/functionality/component should behave the same way it was before. So first make it work after refactoring then think how to make it better.
+The first thing to remember after refactoring your application/functionality/component should behave the same way it was before. So first make it work after refactoring then think how to make it better.
 
 ## 2. Do one thing at a time
 
-Focus is the key here, define the refactoring scope beforehand and stick to it. No multitasking, no switching to other "quick thinks" to check or code. Start with leaves, small and independent parts of you application and then move to more sophisticated stuff.
+The focus is the key here, define the refactoring scope beforehand and stick to it. No multitasking, no switching to other "quick things" to check. Start with leaves, small and independent parts of your application and then move to more sophisticated stuff.
 
-## 3. Premature optimization is evil
+## 3. Avoid premature optimization
 
-Do not try to optimize what is not written yet. Do not spend much time thinking about optimization on the fly. See rule #1 above. Otherwise you'll loose a lot of time not be able complete anything.
+Do not try to optimize what is not written yet. Do not spend much time thinking about optimization on the fly. See rule #1 above. Otherwise, you'll lose a lot of time not being able to complete anything.
 
-## 4. Know when to stop (keep balance) refactoring
+## 4. Know when to stop refactoring. Keep balance
 
-Related to the previous rule. Knowing when to stop is very important as well as keeping balance. Often in code refactoring process you'll find so many code that could be improvement and it's hard to resist to this tension. You need to resist and only refactor what is necessarily and within your scope. Don't make big code changes even bigger. Stop, separate, split for smaller modules and refactor them separately.
+Related to the previous rule. Knowing when to stop is very important as well as keeping balance. 
+
+Often in code refactoring process, you'll find so many code imperfections that could be improved and it's hard to resist the temptation to improve it right away. You'll need to resist and only refactor what is necessary within your scope. Don't make big code changes even bigger. Stop, separate, split for smaller modules and refactor them separately.
