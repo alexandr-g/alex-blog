@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url> <loc>http://grischuk.de/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://grischuk.de/reactathon-2018-react-conference-in-san-francisco</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://grischuk.de/golden-rules-of-code-refactoring</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://grischuk.de/top-well-paid-it-positions-in-germany</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://grischuk.de/visual-studio-code-vs-code-extensions-that-i-use-daily</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://grischuk.de/three-simple-steps-to-invest-in-etf</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://grischuk.de/tags/code/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://grischuk.de/tags/travel/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://grischuk.de/tags/san-francisco/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://grischuk.de/tags/usa/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://grischuk.de/tags/conference/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://grischuk.de/tags/react/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://grischuk.de/tags/bay-area/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://grischuk.de/tags/javascript/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://grischuk.de/tags/it/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://grischuk.de/tags/tech/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://grischuk.de/tags/code/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://grischuk.de/tags/refactoring/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://grischuk.de/tags/programming/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://grischuk.de/tags/jobs/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://grischuk.de/tags/vscode/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://grischuk.de/tags/react/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://grischuk.de/tags/code-snippets/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://grischuk.de/tags/invest/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://grischuk.de/tags/etf/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
