@@ -1,4 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Alexander Grischuk]]></title><description><![CDATA[Frontend Engineer living and working in Berlin with a passion for modern web development]]></description><link>http://grischuk.de</link><image><url>http://grischuk.de/logos/logo-512.png</url><title>Alexander Grischuk</title><link>http://grischuk.de</link></image><generator>GatsbyJS Casper Starter</generator><lastBuildDate>Mon, 24 Jun 2019 10:16:27 GMT</lastBuildDate><atom:link href="http://grischuk.de/rss.xml" rel="self" type="application/rss+xml"/><author><![CDATA[Casper User]]></author><copyright><![CDATA[Alexander Grischuk © 2019]]></copyright><item><title><![CDATA[Reactathon 2018 React Conference in San Francisco]]></title><description><![CDATA[Back in the September this year, I visited for the first time San Francisco. It was my first visit to the USA and first transatlantic flight…]]></description><link>http://grischuk.de/reactathon-2018-react-conference-in-san-francisco</link><guid isPermaLink="false">http://grischuk.de/reactathon-2018-react-conference-in-san-francisco</guid><category><![CDATA[code]]></category><category><![CDATA[travel]]></category><category><![CDATA[san francisco]]></category><category><![CDATA[usa]]></category><category><![CDATA[conference]]></category><category><![CDATA[react]]></category><category><![CDATA[bay area]]></category><dc:creator><![CDATA[Casper User]]></dc:creator><pubDate>Mon, 12 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Back in the September this year, I visited for the first time San Francisco. It was my first visit to the USA and first transatlantic flight.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Alexander Grischuk]]></title><description><![CDATA[Frontend Engineer living and working in Berlin with a passion for modern web development]]></description><link>http://grischuk.de</link><image><url>http://grischuk.de/logos/logo-512.png</url><title>Alexander Grischuk</title><link>http://grischuk.de</link></image><generator>GatsbyJS Casper Starter</generator><lastBuildDate>Wed, 26 Jun 2019 10:37:19 GMT</lastBuildDate><atom:link href="http://grischuk.de/rss.xml" rel="self" type="application/rss+xml"/><author><![CDATA[Casper User]]></author><copyright><![CDATA[Alexander Grischuk © 2019]]></copyright><item><title><![CDATA[How to avoid circular dependencies in your JavaScript monorepo]]></title><description><![CDATA[Circular or cyclic dependencies could easily cause bugs in your application. When your modules reference each other you create circular…]]></description><link>http://grischuk.de/how-to-avoid-circular-dependencies-in-your-java-script-monorepo</link><guid isPermaLink="false">http://grischuk.de/how-to-avoid-circular-dependencies-in-your-java-script-monorepo</guid><category><![CDATA[javascript]]></category><category><![CDATA[IT]]></category><category><![CDATA[tech]]></category><category><![CDATA[code]]></category><category><![CDATA[programming]]></category><dc:creator><![CDATA[Casper User]]></dc:creator><pubDate>Wed, 26 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Circular or cyclic dependencies could easily cause bugs in your application. When your modules reference each other you create circular dependency.&lt;/p&gt;
+&lt;h3 id=&quot;introducing-madge&quot;&gt;&lt;a href=&quot;#introducing-madge&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Introducing Madge&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.npmjs.com/package/madge&quot;&gt;Madge&lt;/a&gt; is a great npm package to check for circular dependencies&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Madge is a developer tool for generating a visual graph of your module dependencies, finding circular dependencies, and give you other useful info. Joel Kemp&apos;s awesome dependency-tree is used for extracting the dependency tree.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Works for JavaScript (AMD, CommonJS, and ES6 modules)&lt;/li&gt;
+&lt;li&gt;Also works for CSS preprocessors (Sass, Stylus, and Less)&lt;/li&gt;
+&lt;li&gt;NPM installed dependencies are excluded by default (can be enabled)&lt;/li&gt;
+&lt;li&gt;All core Node.js modules (assert, path, fs, etc) are excluded&lt;/li&gt;
+&lt;li&gt;ill traverse child dependencies automatically&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;global-installation&quot;&gt;&lt;a href=&quot;#global-installation&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Global installation&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; -g i madge
+
+or
+
+yarn global add madge
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h4 id=&quot;check-for-circular-dependencies-locally&quot;&gt;&lt;a href=&quot;#check-for-circular-dependencies-locally&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Check for circular dependencies locally&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code&gt;madge &lt;span class=&quot;token keyword&quot;&gt;.&lt;/span&gt; -c --no-spinner
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;img width=&quot;344&quot; alt=&quot;Screen Shot 2019-06-26 at 12 14 52&quot; src=&quot;https://user-images.githubusercontent.com/9251327/60172085-3bb11000-980c-11e9-820f-21c0bd368a52.png&quot;&gt;
+&lt;h3 id=&quot;automate-circular-dependency-check-with-ci-pipeline&quot;&gt;&lt;a href=&quot;#automate-circular-dependency-check-with-ci-pipeline&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Automate circular dependency check with CI pipeline&lt;/h3&gt;
+&lt;p&gt;I would recommend to include circular dependency check as a part of your CI pipeline and make it required so you can be sure that with new changes to the codebase you do not introduce circular dependencies.&lt;/p&gt;
+&lt;p&gt;Just add the madge command to your &lt;code&gt;package.json&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-json&quot;&gt;&lt;code&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;find-circular-dependencies&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token string&quot;&gt;&quot;madge --webpackConfig=./packages/main webpack.config.js --circular --warning --no-spinner src packages&quot;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Include &lt;code&gt;madge&lt;/code&gt; in your dev dependencies&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; i --only&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;dev madge
+
+or
+
+yarn add -D madge
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-json&quot;&gt;&lt;code&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;devDependencies&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;madge&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;3.4.4&quot;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/9251327/60172092-3fdd2d80-980c-11e9-8faf-cdeaef51d4a1.png&quot; alt=&quot;Screen Shot 2019-06-25 at 17 33 56&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Reactathon 2018 React Conference in San Francisco]]></title><description><![CDATA[Back in the September this year, I visited for the first time San Francisco. It was my first visit to the USA and first transatlantic flight…]]></description><link>http://grischuk.de/reactathon-2018-react-conference-in-san-francisco</link><guid isPermaLink="false">http://grischuk.de/reactathon-2018-react-conference-in-san-francisco</guid><category><![CDATA[code]]></category><category><![CDATA[travel]]></category><category><![CDATA[san francisco]]></category><category><![CDATA[usa]]></category><category><![CDATA[conference]]></category><category><![CDATA[react]]></category><category><![CDATA[bay area]]></category><dc:creator><![CDATA[Casper User]]></dc:creator><pubDate>Mon, 12 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Back in the September this year, I visited for the first time San Francisco. It was my first visit to the USA and first transatlantic flight.&lt;/p&gt;
 &lt;p&gt;Oh, man! It was great. &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Route:&lt;/strong&gt; Berlin - München, München - SFO&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Travel time:&lt;/strong&gt; 14+ hours&lt;/p&gt;
