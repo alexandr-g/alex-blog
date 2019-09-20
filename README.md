@@ -4,28 +4,28 @@
 
 # Scripts
 
-### builds production bundle and opens locally
+### builds production bundle
 
 ```bash
-npm run build:prod
+yarn build:prod
 ```
 
 ### serve app locally
 
 ```bash
-npm run serve
+yarn serve
 ```
 
 ### prefixes path for articles
 
 ```bash
-npm run build:pp
+yarn build:pp
 ```
 
 ### build prod, prefixes paths and publishes to github pages
 
 ```bash
-npm run build:gh
+yarn build:gh
 ```
 
 # Gatsby Casper Starter
@@ -119,7 +119,7 @@ git clone https://github.com/haysclark/gatsby-starter-casper YourProjectName # C
 cd YourProjectname
 rm -rf .git # Optional, you can leave the .git history for future rebasing
 npm install # or yarn install
-npm run develop # or gatsby develop
+yarn develop # or gatsby develop
 ```
 
 ## Configuration
