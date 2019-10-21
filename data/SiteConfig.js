@@ -20,8 +20,9 @@ module.exports = {
   googleAnalyticsID: 'UA-123032104-1', // GA tracking ID.
   siteSocialUrls: [
     'https://github.com/alexandr-g',
+    'mailto:alexgrischuk@gmail.com',
     'https://twitter.com/alxgri',
-    'mailto:alexgrischuk@gmail.com'
+    'https://www.instagram.com/centra_l/'
   ],
   postDefaultCategoryID: 'Tech', // Default category for posts.
   // Links to social profiles/projects you want to display in the navigation bar.
@@ -40,6 +41,11 @@ module.exports = {
       label: 'Email',
       url: 'mailto:alexgrischuk@gmail.com',
       iconClassName: 'fa fa-envelope' // Disabled, see Navigation.jsx
+    },
+    {
+      label: 'Instagram',
+      url: 'https://www.instagram.com/centra_l/',
+      iconClassName: 'fa fa-instagram'
     }
   ],
   // Copyright string for the footer of the website and RSS feed.
