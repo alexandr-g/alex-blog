@@ -5,8 +5,8 @@
       "path---tags-non-tech-86205ccc3e284f9c19b3.js.map"
     ],
     "path---supporting-refugees-in-berlin": [
-      "path---supporting-refugees-in-berlin-de5bf8f87578ca1762e7.js",
-      "path---supporting-refugees-in-berlin-de5bf8f87578ca1762e7.js.map"
+      "path---supporting-refugees-in-berlin-537120b9b19343a1dd14.js",
+      "path---supporting-refugees-in-berlin-537120b9b19343a1dd14.js.map"
     ],
     "path---tags-bay-area": [
       "path---tags-bay-area-645d5d7c4c9ecf58900d.js",
@@ -37,40 +37,48 @@
       "path---tags-san-francisco-69bdcdc548a504f34706.js.map"
     ],
     "path---tags-coding": [
-      "path---tags-coding-393bc1f61d0d223b38ea.js",
-      "path---tags-coding-393bc1f61d0d223b38ea.js.map"
+      "path---tags-coding-7f598a2b419c1fb20383.js",
+      "path---tags-coding-7f598a2b419c1fb20383.js.map"
+    ],
+    "path---tags-open-source": [
+      "path---tags-open-source-09ffc2bbffca91d10c66.js",
+      "path---tags-open-source-09ffc2bbffca91d10c66.js.map"
     ],
     "path---visual-studio-code-vs-code-extensions-that-i-use-daily": [
-      "path---visual-studio-code-vs-code-extensions-that-i-use-daily-6a971d7760af2d134483.js",
-      "path---visual-studio-code-vs-code-extensions-that-i-use-daily-6a971d7760af2d134483.js.map"
+      "path---visual-studio-code-vs-code-extensions-that-i-use-daily-1314e9fd954e703251c8.js",
+      "path---visual-studio-code-vs-code-extensions-that-i-use-daily-1314e9fd954e703251c8.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "path---tags-javascript": [
-      "path---tags-javascript-135f436ac0bddd8e396c.js",
-      "path---tags-javascript-135f436ac0bddd8e396c.js.map"
+      "path---tags-javascript-7c3d23f8a6c4e8927d79.js",
+      "path---tags-javascript-7c3d23f8a6c4e8927d79.js.map"
+    ],
+    "path---💻-hacktoberfest-challenge-2019": [
+      "path---💻-hacktoberfest-challenge-2019-bc1fa16d9870e75780c6.js",
+      "path---💻-hacktoberfest-challenge-2019-bc1fa16d9870e75780c6.js.map"
     ],
     "path---tags-support": [
       "path---tags-support-e5b9c28c1c8629706cf1.js",
       "path---tags-support-e5b9c28c1c8629706cf1.js.map"
     ],
     "path---tags-react": [
-      "path---tags-react-bdd70dba47d230a0b8e8.js",
-      "path---tags-react-bdd70dba47d230a0b8e8.js.map"
+      "path---tags-react-e00976af4b2a5a14f1f3.js",
+      "path---tags-react-e00976af4b2a5a14f1f3.js.map"
     ],
     "path---categories-tech": [
-      "path---categories-tech-30893dfd940cb7c860c6.js",
-      "path---categories-tech-30893dfd940cb7c860c6.js.map"
+      "path---categories-tech-60dcac3eb9bdf8f636e0.js",
+      "path---categories-tech-60dcac3eb9bdf8f636e0.js.map"
     ],
     "path---top-well-paid-it-positions-in-germany": [
-      "path---top-well-paid-it-positions-in-germany-c67c39872ca1bcf9bd72.js",
-      "path---top-well-paid-it-positions-in-germany-c67c39872ca1bcf9bd72.js.map"
+      "path---top-well-paid-it-positions-in-germany-63ec396ae95994f8fed6.js",
+      "path---top-well-paid-it-positions-in-germany-63ec396ae95994f8fed6.js.map"
     ],
     "path---full-stack-fest-2019-conference-in-spain": [
-      "path---full-stack-fest-2019-conference-in-spain-0ce3575e93a36a4447a0.js",
-      "path---full-stack-fest-2019-conference-in-spain-0ce3575e93a36a4447a0.js.map"
+      "path---full-stack-fest-2019-conference-in-spain-38bf265e4c4fcfe6642a.js",
+      "path---full-stack-fest-2019-conference-in-spain-38bf265e4c4fcfe6642a.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
@@ -89,8 +97,8 @@
       "path---tags-invest-6357e25849b66f47243d.js.map"
     ],
     "path---reactathon-2018-react-conference-in-san-francisco": [
-      "path---reactathon-2018-react-conference-in-san-francisco-9d9886b2a9fe41febba6.js",
-      "path---reactathon-2018-react-conference-in-san-francisco-9d9886b2a9fe41febba6.js.map"
+      "path---reactathon-2018-react-conference-in-san-francisco-41365435050876c6f88d.js",
+      "path---reactathon-2018-react-conference-in-san-francisco-41365435050876c6f88d.js.map"
     ],
     "path---tags-conference": [
       "path---tags-conference-b02e808c74d1751f2f83.js",
@@ -105,12 +113,12 @@
       "path---tags-it-f2a334f5a81433b0d04f.js.map"
     ],
     "path---how-to-avoid-circular-dependencies-in-your-java-script-monorepo": [
-      "path---how-to-avoid-circular-dependencies-in-your-java-script-monorepo-7b300b0ecee21a8cd3b3.js",
-      "path---how-to-avoid-circular-dependencies-in-your-java-script-monorepo-7b300b0ecee21a8cd3b3.js.map"
+      "path---how-to-avoid-circular-dependencies-in-your-java-script-monorepo-42b066c62d8f8c2358d6.js",
+      "path---how-to-avoid-circular-dependencies-in-your-java-script-monorepo-42b066c62d8f8c2358d6.js.map"
     ],
     "path---index": [
-      "path---index-8d410352be255f6e201e.js",
-      "path---index-8d410352be255f6e201e.js.map"
+      "path---index-510fc67887ac0993df16.js",
+      "path---index-510fc67887ac0993df16.js.map"
     ],
     "path---tags-fonds": [
       "path---tags-fonds-537813e7f6da189871a7.js",
@@ -121,8 +129,8 @@
       "path---tags-travel-b11aee95f7e27197bd57.js.map"
     ],
     "path---three-simple-steps-to-invest-in-etf": [
-      "path---three-simple-steps-to-invest-in-etf-28e2ccba4a72687b9956.js",
-      "path---three-simple-steps-to-invest-in-etf-28e2ccba4a72687b9956.js.map"
+      "path---three-simple-steps-to-invest-in-etf-ec97599f955618973551.js",
+      "path---three-simple-steps-to-invest-in-etf-ec97599f955618973551.js.map"
     ],
     "component---src-templates-author-jsx": [
       "component---src-templates-author-jsx-d9dcb651194ebdae2ab7.js",
@@ -155,8 +163,8 @@
       "component---src-templates-tag-jsx-20e23471da3d1e948797.js.map"
     ],
     "path---golden-rules-of-code-refactoring": [
-      "path---golden-rules-of-code-refactoring-86535804e42a8d719ad7.js",
-      "path---golden-rules-of-code-refactoring-86535804e42a8d719ad7.js.map"
+      "path---golden-rules-of-code-refactoring-4b01b2d38e8aa79a6f3a.js",
+      "path---golden-rules-of-code-refactoring-4b01b2d38e8aa79a6f3a.js.map"
     ],
     "path---tags-sitges": [
       "path---tags-sitges-72ed8945eeb306198f9c.js",
@@ -187,22 +195,22 @@
       "path---tags-vscode-9e62828853d1bcd0fe02.js.map"
     ],
     "app": [
-      "app-8c80c7616592a6bdba80.js",
+      "app-87e470612b3be09b8648.js",
       "build-js-styles.css",
-      "app-8c80c7616592a6bdba80.js.map",
+      "app-87e470612b3be09b8648.js.map",
       "build-js-styles.css.map"
     ],
     "path---how-to-test-react-component-wrapped-in-with-router-hoc": [
-      "path---how-to-test-react-component-wrapped-in-with-router-hoc-7d8cae5bc0e0502f2a27.js",
-      "path---how-to-test-react-component-wrapped-in-with-router-hoc-7d8cae5bc0e0502f2a27.js.map"
+      "path---how-to-test-react-component-wrapped-in-with-router-hoc-a7e05f5783c14001ee89.js",
+      "path---how-to-test-react-component-wrapped-in-with-router-hoc-a7e05f5783c14001ee89.js.map"
     ],
     "path---tags-code": [
-      "path---tags-code-7cc8ff1b2c3e3dd1c364.js",
-      "path---tags-code-7cc8ff1b2c3e3dd1c364.js.map"
+      "path---tags-code-ed7e2aaa436ac33c943d.js",
+      "path---tags-code-ed7e2aaa436ac33c943d.js.map"
     ],
     "path---author-alex": [
-      "path---author-alex-1104d4bdfe88c605fbb2.js",
-      "path---author-alex-1104d4bdfe88c605fbb2.js.map"
+      "path---author-alex-b7a98da39b0bb228f95f.js",
+      "path---author-alex-b7a98da39b0bb228f95f.js.map"
     ],
     "component---src-pages-about-js": [
       "component---src-pages-about-js-c1f6e091917011322e76.js",
