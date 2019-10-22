@@ -16,6 +16,8 @@ October is a perfect month for me to contribute to Open Source Software because 
 
 <img src="https://i.imgur.com/r4ZbFuVl.png" title="source: imgur.com" />
 
+#### If you're wondering which mail client I'm using - it's [Airmail](https://airmailapp.com/)
+
 > Congratulations on submitting four (or more) pull requests and contributing to open source projects this month.
 
 Feels good! Last time I've completed Hacktoberfest was in 2017 and received a nice T-shirt from [Digital Ocean](https://m.do.co/c/b8faee442765) - btw, get a **$50 credit** if you register from my link.
@@ -34,7 +36,7 @@ Feels good! Last time I've completed Hacktoberfest was in 2017 and received a ni
 
 This year I've contributed to the [semantic-release](https://github.com/semantic-release/semantic-release) package. Fully automated version management and package publishing.
 
-**semantic-release** is a great way to do pain-free automatic releases. I use it for automatically release our React UI components library which is a part of the Design System. It uses specific commit messages conventions, like **fix**, **feat**, **chore**, **docs** and based on those commits it will figure out version and create your backlog automatically. Trust me, you'll love it! Just try for your library.
+**semantic-release** is a great way to do pain-free automatic releases. I use it to automatically release our React UI components library which is a part of the Design System. It uses specific commit messages conventions, like **fix**, **feat**, **chore**, **docs** and based on those commits it will figure out version bump and create your changelog automatically. Trust me, you'll love it! Just try for your library.
 
 ## Tips
 
