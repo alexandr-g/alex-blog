@@ -1,5 +1,5 @@
 ---
-title: "🤖 How to configure Renovate - automated dependency updates for your project"
+title: "🤖 How to configure Renovate - automated dependencies updates for your project"
 cover: ""
 date: "2019-11-11"
 author: "alex"
@@ -14,6 +14,8 @@ tags:
     - dependencies updates
     - renovate
     - github
+    - dev tools
+    - devtools
 ---
 
 [Renovate](https://github.com/renovatebot/renovate) - is a tool that does automated dependency updates for your project and the nicest thing is that it's **free** for **public repositories**.
