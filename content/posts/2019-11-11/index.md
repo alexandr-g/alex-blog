@@ -30,7 +30,7 @@ This will add **Renovate** to the list of installed applications on GitHub:
 
 ## Step 2. Add Renovate to the specific repository
 
-From **Applications,** page find **Renovate** and click on the **Configure** button at the right. When the new page opens scroll to the bottom. Here you can see an overview of the permissions and **repository access** section.
+On the **Applications** page find **Renovate** and click on the **Configure** button at the right. When the new page opens scroll down to the bottom. Here you can see an overview of the permissions and **repository access** section.
 
 There are two options configure **Renovate** for **All repositories** and for **Only selected repositories**. Select **Only selected repositories** and find your repository for which you want to configure automated updates from the dropdown. Mine is called `alex-blog` in this case.
 
@@ -46,4 +46,4 @@ That PR will add `renovate.json` to your repository extending basic configuratio
 
 ## Step 4. Carefully read and review the first renovate PR
 
-After merging first renovate PR **Configure Renovate** you will start to receive **a lot of** automatic dependency updates via pull requests. That's it, you’re done 🙂 Sit back relax, review and merge. Don't forget to do a functional test for your application with new updates 😉
+After merging first renovate PR **Configure Renovate** you will start to receive **a lot of** automatic dependencies updates via pull requests. That's it, you’re done 🙂 Sit back relax, review and merge. Don't forget to do a functional test for your application with the new updates 😉
