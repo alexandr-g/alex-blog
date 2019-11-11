@@ -4,7 +4,7 @@
 
 # Scripts
 
-### builds production bundle
+### build production bundle
 
 ```bash
 yarn build:prod
@@ -26,6 +26,16 @@ yarn build:pp
 
 ```bash
 yarn build:gh
+```
+
+## Build
+
+### Local build
+
+Local build is working on `node v10` otherwise errors with the `sharp` module.
+
+```js
+nvm use v10 // Now using node v10.15.2 (npm v6.4.1)
 ```
 
 # Gatsby Casper Starter
