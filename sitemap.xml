@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url> <loc>http://grischuk.de/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://grischuk.de/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://grischuk.de/🤖-how-to-configure-renovate-automated-dependencies-updates-for-your-project</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://grischuk.de/💻-hacktoberfest-challenge-2019</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://grischuk.de/full-stack-fest-2019-conference-in-spain</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://grischuk.de/supporting-refugees-in-berlin</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -16,6 +18,12 @@
 <url> <loc>http://grischuk.de/tags/react/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://grischuk.de/tags/code/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://grischuk.de/tags/javascript/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://grischuk.de/tags/dev/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://grischuk.de/tags/dependencies-updates/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://grischuk.de/tags/renovate/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://grischuk.de/tags/github/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://grischuk.de/tags/dev-tools/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://grischuk.de/tags/devtools/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://grischuk.de/tags/travel/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://grischuk.de/tags/spain/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://grischuk.de/tags/sitges/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
