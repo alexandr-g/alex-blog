@@ -21,7 +21,7 @@ I'm switching from the [GitHub Pages](https://pages.github.com/) to [Zeit Now](h
 
 My blog is running on it with Gatsby right now. Configuring some DNS magic with [Cloudflare](https://www.cloudflare.com/) I have support for the **https://** on it which is nice.
 
-<a href="https://imgur.com/AsQ1xcr"><img src="https://i.imgur.com/AsQ1xcr.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/AsQ1xcr"><img src="https://i.imgur.com/AsQ1xcrl.png" title="source: imgur.com" /></a>
 
 ## Release workflow
 
@@ -36,7 +36,7 @@ However, **the pain** is that whenever I need to deploy/release a new article I'
 yarn build:gh
 ```
 
-<a href="https://imgur.com/ZXUKTfA"><img src="https://i.imgur.com/ZXUKTfA.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/ZXUKTfA"><img src="https://i.imgur.com/ZXUKTfAl.png" title="source: imgur.com" /></a>
 
 Only then, after some time, the new blog post appears on the website.
 
