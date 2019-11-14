@@ -1,6 +1,5 @@
 ---
 title: "🤖 How to configure Renovate - automated dependencies updates for your project"
-cover: ""
 date: "2019-11-11"
 author: "alex"
 category: "tech"
