@@ -30,7 +30,7 @@ However, **the pain** is that whenever I need to deploy/release a new article I'
 1. Create a branch, write a blog post
 2. Commit and push to the GitHub
 3. Even if I push to the `master` branch nothing happens until I manually run the npm script
-4. ** To release** a new version I need to run a special npm script locally, which creates a production bundle, prefixes paths for articles and publishes the update to the GitHub Pages.
+4. **To release** a new version I need to run a special npm script locally, which creates a production bundle, prefixes paths for articles and publishes the update to the GitHub Pages.
 
 ```bash
 yarn build:gh
