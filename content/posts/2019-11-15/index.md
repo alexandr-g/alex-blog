@@ -36,15 +36,15 @@ Imagine, being able effortlessly to do functional testing/review just by visitin
 
 Go to https://github.com/apps/now GitHub App and click on _Install Now_ or _Configure_ if you have already added it to your account.
 
-<a href="https://imgur.com/IFRGsJ8"><img src="https://i.imgur.com/IFRGsJ8.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/IFRGsJ8"><img src="https://i.imgur.com/IFRGsJ8l.png" title="source: imgur.com" /></a>
 
 **Select an account** for which you want to configure. You can install GitHub apps for the whole organization's scope.
 
-<a href="https://imgur.com/xrZ1wJ7"><img src="https://i.imgur.com/xrZ1wJ7.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/xrZ1wJ7"><img src="https://i.imgur.com/xrZ1wJ7l.png" title="source: imgur.com" /></a>
 
 You will be redirected to **Now** configuration page:
 
-<a href="https://imgur.com/She0YBQ"><img src="https://i.imgur.com/She0YBQ.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/She0YBQ"><img src="https://i.imgur.com/She0YBQl.png" title="source: imgur.com" /></a>
 
 ## Step 2. Activate Zeit Now for a specific repository
 
@@ -59,21 +59,21 @@ There are two options configure **Now** for **All repositories** and for **Only 
 
 From now on **Now** is activated on your repository and you'll start seeing each comments from the `now` bot on the PR with deployed URLs:
 
-<a href="https://imgur.com/fhcqON0"><img src="https://i.imgur.com/fhcqON0.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/fhcqON0"><img src="https://i.imgur.com/fhcqON0l.png" title="source: imgur.com" /></a>
 
 To open your current app deployment click on the **Preview** link from `now` bot comment.
 
-<a href="https://imgur.com/62j2qhQ"><img src="https://i.imgur.com/62j2qhQ.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/62j2qhQ"><img src="https://i.imgur.com/62j2qhQl.png" title="source: imgur.com" /></a>
 
 ## Investigate Now deployments
 
 Another thing you'll notice is automatic GitHub checks from **Commits** tab on `master` for example.
 
-<a href="https://imgur.com/vXJKkGN"><img src="https://i.imgur.com/vXJKkGN.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/vXJKkGN"><img src="https://i.imgur.com/vXJKkGNl.png" title="source: imgur.com" /></a>
 
 You can click on **Details** next to _Deployment has completed_ message and investigate deployment details on the Now dashboard.
 
-<a href="https://imgur.com/POPRJzC"><img src="https://i.imgur.com/POPRJzC.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/POPRJzC"><img src="https://i.imgur.com/POPRJzCl.png" title="source: imgur.com" /></a>
 
 **Note:** you might need to sign up with your GitHub user to the Now service if you haven't done this before.
 
