@@ -17,6 +17,8 @@ I'm switching from the [GitHub Pages](https://pages.github.com/) to [Zeit Now](h
 
 ## My GitHub Pages config:
 
+<a href="https://imgur.com/17sWgT8"><img src="https://i.imgur.com/17sWgT8l.png" title="source: imgur.com" /></a>
+
 [GitHub Pages](https://pages.github.com/) - is a well-known way to host your static websites and it's working well, it supports custom domains.
 
 My blog is running on it with Gatsby right now. Configuring some DNS magic with [Cloudflare](https://www.cloudflare.com/) I have support for the **https://** on it which is nice.
@@ -32,7 +34,7 @@ However, **the pain** is that whenever I need to deploy/release a new article I'
 3. Even if I push to the `master` branch nothing happens until I manually run the npm script
 4. **To release** a new version I need to run a special npm script locally, which creates a production bundle, prefixes paths for articles and publishes the update to the GitHub Pages.
 
-```bash
+```javascript
 yarn build:gh
 ```
 
