@@ -50,6 +50,7 @@
     "lodash": "^4.17.13",
     "lodash-webpack-plugin": "^0.11.4",
     "moment": "^2.20.1",
+    "prismjs": "^1.17.1",
     "react": "^16.8.6",
     "react-disqus-comments": "^1.0.3",
     "react-dom": "^16.8.6",
