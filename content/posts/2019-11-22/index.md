@@ -97,11 +97,11 @@ yarn install # install dependencies using yarn v2
 yarn start # app is running on http://localhost:3000/ with deps installed with Yarn 2
 ```
 
-<img src="https://user-images.githubusercontent.com/9251327/69436603-f6085d00-0d41-11ea-94bf-6fab7c790f6d.png" width="800" height="800" />
+<img src="https://user-images.githubusercontent.com/9251327/69436603-f6085d00-0d41-11ea-94bf-6fab7c790f6d.png" width="710" height="800" />
 
 Successful installation
 
-<img src="https://user-images.githubusercontent.com/9251327/69436674-1c2dfd00-0d42-11ea-8236-41b8ecd22293.png" width="800" height="800" />
+<img src="https://user-images.githubusercontent.com/9251327/69436674-1c2dfd00-0d42-11ea-8236-41b8ecd22293.png" width="710" height="800" />
 
 ## Yarn 2 FAQ
 
@@ -123,7 +123,7 @@ All the downloaded dependencies (modules) in the `.zip` format.
 ls .yarn/cache
 ```
 
-<img src="https://user-images.githubusercontent.com/9251327/69436785-5a2b2100-0d42-11ea-8491-7f7826bd8a0e.png" width="800" height="800" />
+<img src="https://user-images.githubusercontent.com/9251327/69436785-5a2b2100-0d42-11ea-8491-7f7826bd8a0e.png" width="710" height="800" />
 
 ### Conclusion
 
