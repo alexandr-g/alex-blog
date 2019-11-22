@@ -81,7 +81,7 @@ rm -rf .yarn/
 
 ## Failures
 
-Keep in mind that Yarn v2 is in a kind of "beta" state so failures and bugs are likely to occur. I myself experience and errors when using Yarn v2 while installing private npm packages from the GitHub Package Registry.
+Keep in mind that Yarn v2 is in a kind of "beta" state so failures and bugs are likely to occur. I myself experience errors when using **Yarn v2** while installing private npm packages from the GitHub Package Registry.
 
 ## How successful install with Yarn 2 looks like
 
