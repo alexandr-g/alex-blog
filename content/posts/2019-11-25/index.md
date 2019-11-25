@@ -132,3 +132,72 @@ export default App
 `yarn start` do start the app an verify that color is now changed to dark. You can use this hook whenever need in other components as you wish.
 
 Congrats! We've created a custom re-usable hook which does one simple thing :)
+
+### Bonus section: how to add tests for your custom hook
+
+Nice thing is that you can create tests for your hooks independently. Under `hooks/` let's create a test file `useDarkBody.spec.js`:
+
+```js
+import React from 'react'
+import { mount } from 'enzyme'
+
+import useDarkBody from './useDarkBody'
+
+describe('useDarkBody', () => {
+  it('should set background body color to dark when invoked.', () => {
+    expect(document.body.style.backgroundColor).toMatchSnapshot()
+
+    const Component = () => {
+      useDarkBody()
+
+      return null
+    }
+
+    mount(<Component />)
+
+    expect(document.body.style.backgroundColor).toMatchSnapshot()
+  })
+
+  it('should revert to white when the component is unmounted.', () => {
+    const Component = () => {
+      useDarkBody()
+
+      return null
+    }
+
+    const component = mount(<Component />)
+
+    expect(document.body.style.backgroundColor).toMatchSnapshot()
+
+    component.unmount()
+
+    expect(document.body.style.backgroundColor).toMatchSnapshot()
+  })
+})
+```
+
+In order to run the tests add Enzyme as a dev dependency to our project with its adapter and test-renderer by running:
+
+```bash
+yarn add -D enzyme enzyme-adapter-react-16 react-test-renderer
+```
+
+<img src="https://i.imgur.com/oMc3wc6.png" width="710" />
+
+### Configure Enzyme Adapter
+
+Under `src` create a file called `setupTests.js`:
+
+<img src="https://i.imgur.com/htxjbXM.png" width="710" />
+
+```js
+// src/setupTests.js
+import { configure } from 'enzyme'
+import Adapter from 'enzyme-adapter-react-16'
+
+configure({ adapter: new Adapter() })
+```
+
+Run the tests with `yarn test` and all should be green :)
+
+<img src="https://i.imgur.com/fLsMXpz.png" width="710" />
