@@ -26,6 +26,8 @@ By default create-react-app project background is dark already so we need to dis
 
 Navigate to the `App.css` and comment line with `background-color` of the `.App-header` CSS class.
 
+<img src="https://i.imgur.com/ogmVB1k.png" width="710" />
+
 ```css
 /*  src/App.css */
 .App {
@@ -57,6 +59,8 @@ Do the `yarn start` and verify that the starting page loads with the white backg
 ## Create a simple custom hook which switches the color
 
 I'm going to create a `hooks` folder under `src` with `index.js` and `useDarkBody.js` files.
+
+<img src="https://i.imgur.com/zgDctfOl.png" />
 
 ```js
 // hooks/useDarkBody.js
@@ -122,6 +126,8 @@ function App() {
 
 export default App
 ```
+
+<img src="https://i.imgur.com/1G0FEKO.png" width="710" />
 
 `yarn start` do start the app an verify that color is now changed to dark. You can use this hook whenever need in other components as you wish.
 
