@@ -9,7 +9,7 @@ module.exports = {
   siteUrl: 'http://grischuk.de', // Domain of your website without pathPrefix.
   pathPrefix: '/', // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
   siteDescription:
-    'Frontend Engineer living and working in Berlin with a passion for modern web development', // Website description used for RSS feeds/meta description tag.
+    'Professional Software Engineer living and working in Berlin', // Website description used for RSS feeds/meta description tag.
   siteCover:
     'https://images.unsplash.com/photo-1510936111840-65e151ad71bb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bcd2bf5b6271090e70ea12980ddb02d7&auto=format&fit=crop&w=2567&q=80', // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
   siteNavigation: false, // If navigation is enabled the Menu button will be visible
