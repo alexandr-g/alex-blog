@@ -1,20 +1,20 @@
 ---
-title: "🤖 How to configure Renovate - automated dependencies updates for your project"
-date: "2019-11-11"
-author: "alex"
-category: "tech"
-tags: 
-    - coding
-    - open source
-    - react
-    - code
-    - javascript
-    - dev
-    - dependencies updates
-    - renovate
-    - github
-    - dev tools
-    - devtools
+title: '🤖 How to configure Renovate - automated dependencies updates for your project'
+date: '2019-11-11'
+author: 'alex'
+category: 'tech'
+tags:
+  - coding
+  - open source
+  - react
+  - code
+  - javascript
+  - dev
+  - dependencies updates
+  - renovate
+  - github
+  - dev tools
+  - devtools
 ---
 
 [Renovate](https://github.com/renovatebot/renovate) - is a tool that does automated dependency updates for your project and the nicest thing is that it's **free** for **public repositories**.
@@ -27,7 +27,7 @@ Go to https://github.com/apps/renovate and click on _Install Now_ at the bottom 
 
 This will add **Renovate** to the list of installed applications on GitHub:
 
-<img src="https://i.imgur.com/v0qMWVzl.png" title="source: imgur.com" />
+<img src="https://i.imgur.com/v0qMWVz.png" width="710" />
 
 ## Step 2. Add Renovate to the specific repository
 
@@ -35,13 +35,13 @@ On the **Applications** page find **Renovate** and click on the **Configure** bu
 
 There are two options configure **Renovate** for **All repositories** and for **Only selected repositories**. Select **Only selected repositories** and find your repository for which you want to configure automated updates from the dropdown. Mine is called `alex-blog` in this case.
 
-<img src="https://i.imgur.com/GFW4789l.png" title="source: imgur.com" />
+<img src="https://i.imgur.com/GFW4789.png" width="710" />
 
 ## Step 3. Configure Renovate inside your repository
 
 After all the steps above you'll shortly receive a first pull request from Renovate bot which walks you through the configuration process.
 
-<img src="https://i.imgur.com/cDLbiDTl.png" title="source: imgur.com" />
+<img src="https://i.imgur.com/cDLbiDT.png" width="710"/>
 
 That PR will add `renovate.json` to your repository extending basic configuration for renovate. You can add custom configurations to this file later if you need them.
 

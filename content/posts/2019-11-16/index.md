@@ -17,13 +17,13 @@ I'm switching from the [GitHub Pages](https://pages.github.com/) to [Zeit Now](h
 
 ## My GitHub Pages config:
 
-<a href="https://imgur.com/17sWgT8"><img src="https://i.imgur.com/17sWgT8l.png" title="source: imgur.com" /></a>
+<img src="https://i.imgur.com/17sWgT8.png" width="710" />
 
 [GitHub Pages](https://pages.github.com/) - is a well-known way to host your static websites and it's working well, it supports custom domains.
 
 My blog is running on it with Gatsby right now. Configuring some DNS magic with [Cloudflare](https://www.cloudflare.com/) I have support for the **https://** on it which is nice.
 
-<a href="https://imgur.com/AsQ1xcr"><img src="https://i.imgur.com/AsQ1xcrl.png" title="source: imgur.com" /></a>
+<img src="https://i.imgur.com/AsQ1xcr.png" width="710" />
 
 ## Release workflow
 
@@ -38,7 +38,7 @@ However, **the pain** is that whenever I need to deploy/release a new article I'
 yarn build:gh
 ```
 
-<a href="https://imgur.com/ZXUKTfA"><img src="https://i.imgur.com/ZXUKTfAl.png" title="source: imgur.com" /></a>
+<img src="https://i.imgur.com/ZXUKTfA.png" width="710" />
 
 Only then, after some time, the new blog post appears on the website.
 

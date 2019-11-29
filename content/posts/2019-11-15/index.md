@@ -1,20 +1,20 @@
 ---
-title: "How to configure automated deployments for every branch/commit with Zeit now"
-date: "2019-11-15"
-author: "alex"
-category: "tech"
+title: 'How to configure automated deployments for every branch/commit with Zeit now'
+date: '2019-11-15'
+author: 'alex'
+category: 'tech'
 tags:
-    - coding
-    - infrastructure
-    - code
-    - dev
-    - github
-    - dev tools
-    - git
-    - automated deployments
-    - deploy
-    - zeit now
-    - continuous delivery
+  - coding
+  - infrastructure
+  - code
+  - dev
+  - github
+  - dev tools
+  - git
+  - automated deployments
+  - deploy
+  - zeit now
+  - continuous delivery
 ---
 
 You know the drill. A colleague asks you for review and functional testing, of course, is a part of it, you go to the PR, grab branch name, checkout that branch locally, build client again (hopefully, you're using webpack HMR).
@@ -36,15 +36,15 @@ Imagine, being able effortlessly to do functional testing/review just by visitin
 
 Go to https://github.com/apps/now GitHub App and click on _Install Now_ or _Configure_ if you have already added it to your account.
 
-<a href="https://imgur.com/IFRGsJ8"><img src="https://i.imgur.com/IFRGsJ8l.png" title="source: imgur.com" /></a>
+<img src="https://i.imgur.com/IFRGsJ8.png" width="710" />
 
 **Select an account** for which you want to configure. You can install GitHub apps for the whole organization's scope.
 
-<a href="https://imgur.com/xrZ1wJ7"><img src="https://i.imgur.com/xrZ1wJ7l.png" title="source: imgur.com" /></a>
+<img src="https://i.imgur.com/xrZ1wJ7.png" width="710" />
 
 You will be redirected to **Now** configuration page:
 
-<a href="https://imgur.com/She0YBQ"><img src="https://i.imgur.com/She0YBQl.png" title="source: imgur.com" /></a>
+<img src="https://i.imgur.com/She0YBQ.png" width="710" />
 
 ## Step 2. Activate Zeit Now for a specific repository
 
@@ -59,31 +59,31 @@ There are two options configure **Now** for **All repositories** and for **Only 
 
 From now on **Now** is activated on your repository and you'll start seeing each comments from the `now` bot on the PR with deployed URLs:
 
-<a href="https://imgur.com/fhcqON0"><img src="https://i.imgur.com/fhcqON0l.png" title="source: imgur.com" /></a>
+<img src="https://i.imgur.com/fhcqON0.png" width="710"/>
 
 To open your current app deployment click on the **Preview** link from `now` bot comment.
 
-<a href="https://imgur.com/62j2qhQ"><img src="https://i.imgur.com/62j2qhQl.png" title="source: imgur.com" /></a>
+<img src="https://i.imgur.com/62j2qhQ.png" width="710" />
 
 ## Investigate Now deployments
 
 Another thing you'll notice is automatic GitHub checks from **Commits** tab on `master` for example.
 
-<a href="https://imgur.com/vXJKkGN"><img src="https://i.imgur.com/vXJKkGNl.png" title="source: imgur.com" /></a>
+<img src="https://i.imgur.com/vXJKkGN.png" width="710" />
 
 You can click on **Details** next to _Deployment has completed_ message and investigate deployment details on the Now dashboard.
 
-<a href="https://imgur.com/POPRJzC"><img src="https://i.imgur.com/POPRJzCl.png" title="source: imgur.com" /></a>
+<img src="https://i.imgur.com/POPRJzC.png" width="710" />
 
 **Note:** you might need to sign up with your GitHub user to the Now service if you haven't done this before.
 
 ## Advantages
 
-* Free automatic deployments
-* Push to deploy- it's that easy
-* **GitHub** and **GitLab** integrations
-* Easy to set up - Zero config
-* HTTPS and SSL out of the box
-* Deploy anything really
-* Enabling developers
-* Support for custom domains
+- Free automatic deployments
+- Push to deploy- it's that easy
+- **GitHub** and **GitLab** integrations
+- Easy to set up - Zero config
+- HTTPS and SSL out of the box
+- Deploy anything really
+- Enabling developers
+- Support for custom domains

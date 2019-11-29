@@ -1,26 +1,26 @@
 ---
-title: "💻Hacktoberfest challenge 2019"
-cover: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97"
-date: "2019-10-22"
-author: "alex"
-category: "tech"
-tags: 
-    - coding
-    - open source
-    - react
-    - code
-    - javascript
+title: '💻Hacktoberfest challenge 2019'
+cover: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97'
+date: '2019-10-22'
+author: 'alex'
+category: 'tech'
+tags:
+  - coding
+  - open source
+  - react
+  - code
+  - javascript
 ---
 
 October is a perfect month for me to contribute to Open Source Software because of Hacktoberfest. Hacktoberfest 2019 is a great initiative for new and experienced developers to explore, learn and contribute to the OSS.
 
-<img src="https://i.imgur.com/r4ZbFuVl.png" title="source: imgur.com" />
+<img src="https://i.imgur.com/r4ZbFuV.png" width="710" />
 
 #### If you're wondering which mail client I'm using - it's [Airmail](https://airmailapp.com/)
 
 > Congratulations on submitting four (or more) pull requests and contributing to open source projects this month.
 
-Feels good! Last time I've completed Hacktoberfest was in 2017 and received a nice T-shirt from [Digital Ocean](https://m.do.co/c/b8faee442765) - btw, get a **$50 credit** if you register from my link.
+Feels good! Last time I've completed Hacktoberfest was in 2017 and received a nice T-shirt from [Digital Ocean](https://m.do.co/c/b8faee442765) - btw, get a **\$50 credit** if you register from my link.
 
 ## The Original - DigitalOcean/Dev.to - Hacktoberfest 2019
 
@@ -40,9 +40,9 @@ This year I've contributed to the [semantic-release](https://github.com/semantic
 
 ## Tips
 
-* familiarize yourself with the source code, rules and the repo you're going to contribute to.
-* navigate to the GitHub issues in that repo and look for labels like: `help wanted`, `good first issue` or `hackocoberfest`.
-* start with something small - that could be even some docs improvements.
-* read the contributors guidelines carefully.
+- familiarize yourself with the source code, rules and the repo you're going to contribute to.
+- navigate to the GitHub issues in that repo and look for labels like: `help wanted`, `good first issue` or `hackocoberfest`.
+- start with something small - that could be even some docs improvements.
+- read the contributors guidelines carefully.
 
 💻Happy codding!

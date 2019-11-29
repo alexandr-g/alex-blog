@@ -1,16 +1,16 @@
 ---
-title: "How to delete GitHub branches automatically after merge by default"
-date: "2019-11-14"
-author: "alex"
-category: "tech"
+title: 'How to delete GitHub branches automatically after merge by default'
+date: '2019-11-14'
+author: 'alex'
+category: 'tech'
 tags:
-    - coding
-    - open source
-    - code
-    - dev
-    - github
-    - dev tools
-    - git
+  - coding
+  - open source
+  - code
+  - dev
+  - github
+  - dev tools
+  - git
 ---
 
 I saw a lot of big projects/repositories with hundreds or even thousands of stale branches where nothing really happens.
@@ -24,11 +24,12 @@ You need to be a **repository admin**:
 
 1.  Navigate to repository **Settings**
 
-<a href="https://imgur.com/gICbc6V"><img src="https://i.imgur.com/gICbc6Vl.png" title="source: imgur.com" /></a>
+<img src="https://i.imgur.com/gICbc6V.png" width="710" />
 
 2.  Scroll down to the **"Merge button"** section
 3.  Activate **Automatically delete head branches** checkbox
+    [img]https://i.imgur.com/Tek0MBm.png[/img]
 
-<a href="https://imgur.com/Tek0MBm"><img src="https://i.imgur.com/Tek0MBml.png" title="source: imgur.com" /></a>
+<img src="https://i.imgur.com/Tek0MBm.png" width="710" />
 
-Merged something accidentally and want your branch back? Don't worry, you'll be able to restore deleted branched.
+If you’re merged something accidentally and want your branch back? Don't worry, you'll be able to restore deleted branched.
