@@ -11,15 +11,15 @@ tags:
   - react custom hooks
 ---
 
-Imagine having a two deeply nested React components down in the three which should know about the same state.
+Imagine having two deeply nested React components down in the three which should know about the same state.
 
-There are multiple ways to solve this problem. You can use Redux store or a relatively new `useContext()` React hook for this. Real world example would be when you have a component that is responsible for controlling a side panel/bar. Your side bar is located inside two different components which don't know about each other. You can open/close side bar and you want to remember its "state".
+There are multiple ways to solve this problem. You can use Redux store or a relatively new `useContext()` React hook for this. A real-world example would be when you have a component that is responsible for controlling a side panel/bar. Your sidebar is located inside two different components that don't know about each other. You can open/close the sidebar and you want to remember its "state".
 
-In this article we've going to use `useContext()` hook from the React to achieve this.
+In this article, we've going to use `useContext()` hook from the React to achieve this.
 
 ## The goal is to create a custom context for panel switch
 
-Let's say I have a component with side bar or panel and what I want to do with it is to control opening and closing this panel and keep the sate of the panel.
+Let's say I have a component with sidebar or panel and what I want to do with it is to control the opening and closing this panel and keep the sate of the panel.
 
 At the end I'm going to expect the following API for the usage of custom context:
 
@@ -31,13 +31,13 @@ const { sidebar, onSidebarChange } = useContext(SidebarContext)
 
 ## Creating a custom context
 
-In order to create a custom context we'll need to import `createContext` from React.
+To create a custom context, we'll need to import `createContext` from React.
 
 ```javascript
 import { createContext } from 'react'
 ```
 
-Let's create and name our context with initial state and the handler.
+Let's create and name our context with an initial state and the handler.
 
 ```javascript
 const SidebarContext = createContext({
@@ -76,7 +76,7 @@ const SidebarContext: Context<SidebarContextT> = createContext({
 
 ## Component context Provider
 
-In order to provide context to our components we'll to create context provider for it and wrap our high-level component in it:
+To provide context to our components we'll to create context provider for it and wrap our high-level component in it:
 
 ```javascript
 const SidebarContextProvider = children => {
@@ -105,7 +105,7 @@ export const usePanel = (): [
 
 ## Wrap Main.js file with the SidebarContextProvider
 
-Let's say you have `Main.js` file with routing inside. This is your top level component. We need to wrap or "provide" context globally to our components. Add `SidebarContextProvider` before the switch.
+Let's say you have `Main.js` file with routing inside. This is your top-level component. We need to wrap or "provide" context globally to our components. Add `SidebarContextProvider` before the switch.
 
 ```javascript
 import React from 'react'
