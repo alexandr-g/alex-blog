@@ -1,5 +1,5 @@
 ---
-title: 'Provide common context to your nested React components with useContext() hook'
+title: 'Provide common context to React components with useContext() hook'
 date: '2019-11-30'
 author: 'alex'
 category: 'tech'
