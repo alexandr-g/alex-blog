@@ -90,7 +90,7 @@ const SidebarContextProvider = children => {
 export default SidebarContextProvider
 ```
 
-## Export context itself for further usage
+## Export for further usage
 
 ```javascript
 export const usePanel = (): [
