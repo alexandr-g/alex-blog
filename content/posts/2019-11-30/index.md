@@ -27,7 +27,7 @@ At the end I'm going to expect the following API for the usage of custom context
 const { sidebar, onSidebarChange } = useContext(SidebarContext)
 ```
 
-`SidebarContext` will give us an access to the `panel` prop and `onSidebarChange` handler.
+`SidebarContext` will give us an access to the `sidebar` prop and `onSidebarChange` handler.
 
 ## Creating a custom context
 
