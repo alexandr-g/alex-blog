@@ -46,3 +46,7 @@ This year I've contributed to the [semantic-release](https://github.com/semantic
 - read the contributors guidelines carefully.
 
 💻Happy codding!
+
+## Hacktoberfest pack delivered
+
+<img src="https://i.imgur.com/LuFU112.jpg" width="710" />
