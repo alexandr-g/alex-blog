@@ -12,7 +12,7 @@ tags:
   - lighthouse audit
 ---
 
-In this article we're going to create GitHub Action witch is generating Lighthouse on every push. The goal is to measure, analyze and improve your page performance (initial load, accessibility, usage of best practices, SEO and PWA).
+In this article we're going to create GitHub Action witch is generating Lighthouse report on every push. The goal is to measure, analyze and improve your page performance (initial load, accessibility, usage of best practices, SEO and PWA). Lighthouse is taking measures 3 times in a row for better accuracy.
 
 # Lighthouse
 
@@ -22,13 +22,13 @@ Lighthouse been here for a while and now it is even built-in Google Chrome Dev T
 
 <img src="https://i.imgur.com/0yawYK3.png" width='710' />
 
-you can do performance audits using Google Chrome Dev Tools on `https://localhost:<port>` but that's not what we are really interested.
+you can do performance audits using Google Chrome Dev Tools on `https://localhost:<port>` but that's not what we are interested in.
 
-We want to measure performance development after each push and commit to remote repository.
+We want to measure performance development after each push and commit to a remote repository.
 
 ## Lighthouse CI Action
 
-[GitHub Actions](https://github.com/features/actions) is a powerful way to automate different sort of tasks and they live close to your source if you're using GitHub which is super handy.
+[GitHub Actions](https://github.com/features/actions) is a powerful way to automate different sorts of tasks and they live close to your source if you're using GitHub which is super handy.
 
 > We're going to create the most basic example: run Lighthouse on each push to the repo and save results as action artifacts.
 
@@ -67,11 +67,11 @@ You will see a new check on your PR created from action click on the "Details" l
 
 <img src='https://i.imgur.com/YvDy1DU.png' width="710" />
 
-That will open "Actions" tab with your action details. Here you can see the steps name that you specified in the `.yml` config and some log/debug data.
+That will open the "Actions" tab with your action details. Here you can see the steps name that you specified in the `.yml` config and some log/debug data.
 
 <img src="https://i.imgur.com/szd6uq7.png" width="710" />
 
-In the right corner you'll find "Artifacts". This is the output from your GitHub Action which is generated Lighthouse report in `report_name.json` format. Download it.
+In the right corner, you'll find "Artifacts". This is the output from your GitHub Action which is generated Lighthouse report in `report_name.json` format. Download it.
 
 ## Lighthouse Report Viewer
 
@@ -85,7 +85,7 @@ Here's how the report will look like:
 
 <img src="https://i.imgur.com/O0jSeM4.png" width="710" />
 
-You can advance even further and analyze on every now deployment and not only against static `url` definitions. I'm describing [How to configure automated deployments for every branch/commit with Zeit now.](https://grischuk.de/how-to-configure-automated-deployments-for-every-branch-commit-with-zeit-now)
+You can advance even further and analyze on every now deployment and not only against static `URL` definitions. I'm describing [How to configure automated deployments for every branch/commit with Zeit now.](https://grischuk.de/how-to-configure-automated-deployments-for-every-branch-commit-with-zeit-now)
 
 ## References
 
