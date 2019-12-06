@@ -33,7 +33,7 @@ I completed 50+ blinks in one year. I don't think that is a lot and I'm pretty s
 
 ## Premium features
 
-You can install Blinkist for ios and android app and start with a **free plan**. In a free plan, you can read one blink or title completely free. If it's not enough you can try Premium plan for 7 days just to try how it is.
+You can install Blinkist ios and android app and start with a **free plan**. In a free plan, you can read one blink or title completely free. If it's not enough you can try Premium plan for 7 days for free.
 
 In the premium plan, you have access to any titles at any time and can sync your highlights to external apps like Evernote.
 
