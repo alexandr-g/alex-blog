@@ -13,6 +13,8 @@ tags:
   - applitools
   - visual tests
   - devtools
+  - Cypress
+  - cypress
 ---
 
 ## [Applitools](https://applitools.com/) cloud integration
