@@ -183,8 +183,8 @@ For your convenience, you can add pre-publish scripts
 
 ```json
 {
-  "clean-files": "rm -rf ./template/public ./template/src && rm -f ./template/.eslintignore ./template/.eslintrc  ./template/.prettierrc ./template/README.md ./template/README_CRA.md ./template/tsconfig.json",
-  "copy-files": "cp -a ./src/. template/src && cp -a ./public/. template/public && cp .eslintignore .eslintrc .prettierrc tsconfig.json README.md README_CRA.md template/",
+  "clean-files": "rm -rf ./template/public ./template/src && rm -f ./template/.eslintrc",
+  "copy-files": "cp -a ./src/. template/src && cp -a ./public/. template/public && cp .eslintrc template/",
   "prepublishOnly": "yarn clean-files && yarn copy-files"
 }
 ```
