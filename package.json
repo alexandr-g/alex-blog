@@ -1,9 +1,11 @@
 {
   "name": "alex-blog",
-  "description":
-    "Alexander Grischuk personal blog based on GatsbyJS starter kit with the Casper theme.",
+  "description": "Alexander Grischuk personal blog based on GatsbyJS starter kit with the Casper theme.",
   "version": "0.0.1",
   "author": "Alexander Grischuk <alexgrischuk@gmail.com>",
+  "engines": {
+    "node": "10.x"
+  },
   "scripts": {
     "dev": "gatsby develop",
     "serve": "gatsby serve",
@@ -13,8 +15,7 @@
     "build:prod": "yarn clean && yarn build && yarn serve",
     "clean": "rm -rf .cache && rm -rf public",
     "lint": "yarn lint:js && yarn lint:css && yarn lint:md",
-    "lint:js":
-      "eslint --ext .js,.jsx --ignore-pattern public --ignore-pattern static .",
+    "lint:js": "eslint --ext .js,.jsx --ignore-pattern public --ignore-pattern static .",
     "lint:css": "stylelint --fix 'src/**/*.css'",
     "lint:md": "remark content/posts/",
     "write-good": "write-good $(glob 'content/posts/**/*.md')",
@@ -77,10 +78,17 @@
     "stylelint-config-standard": "17.0.0",
     "write-good": "0.11.3"
   },
-  "keywords": ["gatsby", "blog", "casper", "starter"],
+  "keywords": [
+    "gatsby",
+    "blog",
+    "casper",
+    "starter"
+  ],
   "license": "MIT",
   "main": "n/a",
   "remarkConfig": {
-    "plugins": ["remark-preset-lint-recommended"]
+    "plugins": [
+      "remark-preset-lint-recommended"
+    ]
   }
 }
