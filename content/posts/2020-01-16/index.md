@@ -146,7 +146,7 @@ cp .eslintignore .eslintrc .prettierrc tsconfig.json README.md template/
 
 Add the license, author, description, description, keywords, repository URL, bugs URL. You find a good example in my [template package.json](https://github.com/alexandr-g/cra-template-typescript-redux/blob/master/package.json)
 
-### Add 'main' and `files` properties
+### Add `main` and `files` properties
 
 It's important to point CRA where to look while building your app from the template. Adding 'main' and `files` points to proper files.
 
