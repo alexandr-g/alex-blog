@@ -25,7 +25,7 @@ tags:
 
 A [Create React App](https://github.com/facebook/create-react-app) (CRA) templates were introduced quite recently and there is not much info present on how to create them. In this article, I'm going to share my experience of developing a custom template and releasing it to the npm.
 
-CRA templates are a way to automate the routine setup. Basic Create React App CLI execution generates an app without any React Router, linter, prettier setup, so you need to add all of this dependencies on your own and configure them, but why waste time when you know from the beginning that you'll be building an app with Redux, for example. Templates could help with that it's a way to generate an app with all the deps and tools you need. Of course, if such a template is present ;)
+CRA templates are a way to automate the routine setup. Basic Create React App CLI execution generates an app without any React Router, linter, prettier setup, so you need to add all of this dependencies on your own and configure them, but why waste time when you know from the beginning that you'll be building an app with Redux, for example. Templates could help with that. It's a way to generate an app with all the deps and tools you need. Of course, if such template is present ;)
 
 ## CRA basic templates
 
@@ -45,7 +45,7 @@ yarn create react-app my-app --template typescript
 
 ## Building your own CRA template
 
-### 1. Start a project
+### 1. Starting a project
 
 To start building CRA template I would start with generating a new project with CRA itself
 
@@ -55,7 +55,7 @@ yarn create react-app your-cra-template-name
 
 Adjust package `name` in your `package.json` with `cra-template-[your-custom-template-name]`.
 
-Note, that it **should** start with the `cra-template`. This way CRA knows that this would be an actual template.
+Note, that it **should** start with the `cra-template-` prefix. This way CRA knows that this would be an actual template.
 
 ### 2. Remove deps and setting up tools
 
@@ -69,9 +69,17 @@ When your project is ready to become a _template_ you need to do some preparatio
 
 From your project root create `template/` folder.
 
+```sh
+mkdir template/
+```
+
 #### 3.2 Add gitignore file to the template/ folder
 
 Add `gitignore` into the created template folder `template/gitignore`. You can copy `gitignore` from the CRA but don't forget to remove the `.` in front of the file.
+
+```sh
+cp .gitignore template/gitignore
+```
 
 Please note: it is **important** that the `gitignore` file inside the template folder should be without **"."** in front!
 
@@ -169,9 +177,9 @@ It's important to point CRA where to look while building your app from the templ
 }
 ```
 
-### I'd suggest to use pre-publish script to make it easier for incremental template updates
+### I'd suggest using pre-publish script to make it easier for incremental template updates
 
-For your convenience you can add pre-publish scripts
+For your convenience, you can add pre-publish scripts
 
 ```json
 {
