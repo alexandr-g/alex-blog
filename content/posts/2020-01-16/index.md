@@ -211,11 +211,16 @@ npm login
 npm publish --access public
 ```
 
+<img src="https://miro.medium.com/max/2518/1*Tcdt1ZbW1M9zkk0H5lo3fw.png" width="730" />
+This is how successful release looks like.
+
 If name of your package is already taken you'll receive and error on this step - just try another name. When publishing was successful you can start using your template. Happy coding!
 
 ## A quick start Redux + TypeScript Create React App template
 
 I created an opinionated quick start [Create React App](https://github.com/facebook/create-react-app) (CRA) _template_ with configured **Redux**, **TypeScript**, **React Router**, **Enzyme** and custom **ESlint** configuration.
+
+<img src="https://miro.medium.com/max/2552/1*k970LB1N9Zjk7GjybQmx4w.png" width="730" />
 
 Just install and play with it already. It configures TypeScript with Redux project with tons of useful tools and configurations, like automatic code formatting and ESLint setup for the TypeScript.
 
