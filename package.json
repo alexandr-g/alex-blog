@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "author": "Alexander Grischuk <alexgrischuk@gmail.com>",
   "engines": {
-    "node": "v10.15.2"
+    "node": "10.x.x"
   },
   "scripts": {
     "dev": "gatsby develop",
@@ -36,7 +36,7 @@
     "gatsby-plugin-nprogress": "^1.0.9",
     "gatsby-plugin-offline": "^1.0.12",
     "gatsby-plugin-react-helmet": "^1.0.2",
-    "gatsby-plugin-sharp": "^1.6.23",
+    "gatsby-plugin-sharp": "^2.3.13",
     "gatsby-plugin-sitemap": "^1.2.7",
     "gatsby-plugin-twitter": "^1.0.14",
     "gatsby-remark-autolink-headers": "^1.4.10",
