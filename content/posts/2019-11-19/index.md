@@ -101,6 +101,6 @@ import 'jest-enzyme'
 configure({ adapter: new Adapter() })
 ```
 
-That's it! Now you can use better assertions form the est-enzyme 🙂
+That's it! Now you can use better assertions form the `jest-enzyme` 🙂
 
 [jest-enzyme](https://github.com/FormidableLabs/enzyme-matchers/blob/master/packages/jest-enzyme/README.md) is a great addition to your React testing toolkit. It is not necessarily aiming at replacing Enzyme but a nice addition to it.
