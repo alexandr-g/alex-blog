@@ -1,32 +1,22 @@
-import React, { Component } from "react";
-import "./Footer.css";
+import React from 'react'
+import './Footer.css'
 
-class Footer extends Component {
-  render() {
-    const PoweredBy = props => {
-      const { show } = props;
-      if (show) {
-        return (
-          <section className="poweredby">
-            Proudly published with <a href="https://gatsbyjs.org">Gatsby</a>
-          </section>
-        );
-      }
-      return null;
-    };
+const Footer = ({ promoteGatsby, copyright }) => {
+  const { label, url, year } = copyright
 
-    const { promoteGatsby } = this.props;
-    const { label, url, year } = this.props.copyright;
-    return (
-      <footer className="site-footer clearfix">
-        <section className="copyright">
-          <a href={url || "/"}>{label}</a> &copy;{" "}
-          {year || new Date().getFullYear()}
+  return (
+    <footer className="site-footer clearfix">
+      <section className="copyright">
+        <a href={url || '/'}>{label}</a> &copy;{' '}
+        {year || new Date().getFullYear()}
+      </section>
+      {promoteGatsby ? (
+        <section className="poweredby">
+          Proudly published with <a href="https://gatsbyjs.org">Gatsby</a>
         </section>
-        <PoweredBy show={promoteGatsby} />
-      </footer>
-    );
-  }
+      ) : null}
+    </footer>
+  )
 }
 
-export default Footer;
+export default Footer
