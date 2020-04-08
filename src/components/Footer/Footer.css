@@ -3,37 +3,36 @@
    ========================================================================== */
 
 .site-footer {
-    position: relative;
-    margin: 8rem 0 0;
-    padding: 1rem 15px;
-    font-family: "Open Sans", sans-serif;
-    font-size: 1rem;
-    line-height: 1.75em;
-    color: #bbc7cc;
+  display: flex;
+  justify-content: space-between;
+  margin: 8rem 0 0;
+  padding: 1rem 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.75em;
+  color: #bbc7cc;
 }
 
 .site-footer a {
-    color: #bbc7cc;
-    text-decoration: none;
-    font-weight: bold;
+  color: #bbc7cc;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .site-footer a:hover {
-    color: #bbc7cc;
-    border-bottom: #bbc7cc 1px solid;
+  color: #bbc7cc;
+  border-bottom: #bbc7cc 1px solid;
 }
 
 .poweredby {
-    display: block;
-    width: 45%;
-    float: right;
-    text-align: right;
+  text-align: right;
+  font-size: small;
+  margin-left: auto;
 }
 
 .copyright {
-    display: block;
-    width: 45%;
-    float: left;
+  font-size: small;
+  width: 45%;
 }
 
 /* ==========================================================================
@@ -41,12 +40,12 @@
    ========================================================================== */
 
 @media only screen and (max-width: 500px) {
-    .site-footer {
-        margin-top: 3rem;
-    }
+  .site-footer {
+    margin-top: 3rem;
+  }
 
-    .post-template .site-footer,
-    .page-template .site-footer {
-        margin-top: 0;
-    }
+  .post-template .site-footer,
+  .page-template .site-footer {
+    margin-top: 0;
+  }
 }
