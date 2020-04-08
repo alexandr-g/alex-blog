@@ -12145,11 +12145,6 @@ react-dev-utils@^4.2.1:
     strip-ansi "3.0.1"
     text-table "0.2.0"
 
-react-disqus-comments@^1.0.3:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/react-disqus-comments/-/react-disqus-comments-1.2.0.tgz#e5aae2ea6cdce998cfc1340aab11df1be68f71f5"
-  integrity sha512-FS3+AW3lWU6PXM0p/q3exqKFI/FG12XqoU7TDquXG1xbLLdZC5Ux+C0VvAg2LEeWVK8gNu5NT9kg09oWJ7JFnw==
-
 react-dom@^15.6.0:
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-15.6.2.tgz#41cfadf693b757faf2708443a1d1fd5a02bef730"

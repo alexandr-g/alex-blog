@@ -22,58 +22,56 @@ More information in the [announcement](https://www.gatsbyjs.org/blog/gatsby-firs
 
 ## Features
 
-* Blazing fast loading times thanks to pre-rendered HTML and automatic chunk loading of JS files
-* Separate components for everything
-* High configurability:
-  * Site information
-  * Site social profiles
-  * Copyright information
-  * More!
-* Author segment
-  * Name
-  * Location
-  * Description
-  * Links
-  * Follow Me button
-  * Social profiles
-* Posts in Markdown
-  * Code syntax highlighting
-  * Embed YouTube videos
-  * Embed Tweets
-  * Pages support pagination
-  * Read More linked paginated pages
-* Tags
-  * Separate page for posts under each tag
-  * Pages support pagination.
-* Categories (pages generated but not linked in theme)
-  * Separate page for posts under each category
-* Disqus support (needs to be uncommented)
-  * Notifications about new disqus comments
-* Google Analytics support
-* NPM scripts for GitHub Pages deployment
-* Social features (uncomment code to use)
-  * Twitter tweet button
-  * Facebook share/share count
-  * Google+ share button
-  * easily to add more!
-* SEO
-  * Sitemap generation
-  * robots.txt
-  * General description tags
-  * Schema.org JSONLD (Google Rich Snippets)
-  * OpenGraph Tags (Facebook/Google+/Pinterest)
-  * Twitter Tags (Twitter Cards)
-* RSS feeds
-* Loading progress for slow networks
-* Offline support
-* Web App Manifest support
-* Development tools
-  * ESLint for linting
-  * Prettier for code style
-  * Remark-Lint for linting Markdown
-  * write-good for linting English prose
-  * gh-pages for deploying to GitHub pages
-  * CodeClimate configuration file and badge
+- Blazing fast loading times thanks to pre-rendered HTML and automatic chunk loading of JS files
+- Separate components for everything
+- High configurability:
+  - Site information
+  - Site social profiles
+  - Copyright information
+  - More!
+- Author segment
+  - Name
+  - Location
+  - Description
+  - Links
+  - Follow Me button
+  - Social profiles
+- Posts in Markdown
+  - Code syntax highlighting
+  - Embed YouTube videos
+  - Embed Tweets
+  - Pages support pagination
+  - Read More linked paginated pages
+- Tags
+  - Separate page for posts under each tag
+  - Pages support pagination.
+- Categories (pages generated but not linked in theme)
+  - Separate page for posts under each category
+- Google Analytics support
+- NPM scripts for GitHub Pages deployment
+- Social features (uncomment code to use)
+  - Twitter tweet button
+  - Facebook share/share count
+  - Google+ share button
+  - easily to add more!
+- SEO
+  - Sitemap generation
+  - robots.txt
+  - General description tags
+  - Schema.org JSONLD (Google Rich Snippets)
+  - OpenGraph Tags (Facebook/Google+/Pinterest)
+  - Twitter Tags (Twitter Cards)
+- RSS feeds
+- Loading progress for slow networks
+- Offline support
+- Web App Manifest support
+- Development tools
+  - ESLint for linting
+  - Prettier for code style
+  - Remark-Lint for linting Markdown
+  - write-good for linting English prose
+  - gh-pages for deploying to GitHub pages
+  - CodeClimate configuration file and badge
 
 NOTE: Feel free to check out [Gatsby Material Starter](https://github.com/Vagr9K/gatsby-material-starter) if you are interested in a more opinionated starter with Material Design in mind.
 
@@ -122,7 +120,7 @@ module.exports = {
   siteSocialUrls: [
     'https://github.com/haysclark/gatsby-starter-casper',
     'https://twitter.com/gatsbyjs',
-    'mailto:gatsbyjs@example.com'
+    'mailto:gatsbyjs@example.com',
   ],
   postDefaultCategoryID: 'Tech', // Default category for posts.
   // Links to social profiles/projects you want to display in the navigation bar.
@@ -130,28 +128,28 @@ module.exports = {
     {
       label: 'GitHub',
       url: 'https://github.com/haysclark/gatsby-starter-casper',
-      iconClassName: 'fa fa-github' // Disabled, see Navigation.jsx
+      iconClassName: 'fa fa-github', // Disabled, see Navigation.jsx
     },
     {
       label: 'Twitter',
       url: 'https://twitter.com/gatsbyjs',
-      iconClassName: 'fa fa-twitter' // Disabled, see Navigation.jsx
+      iconClassName: 'fa fa-twitter', // Disabled, see Navigation.jsx
     },
     {
       label: 'Email',
       url: 'mailto:gatsbyjs@example.com',
-      iconClassName: 'fa fa-envelope' // Disabled, see Navigation.jsx
-    }
+      iconClassName: 'fa fa-envelope', // Disabled, see Navigation.jsx
+    },
   ],
   // Copyright string for the footer of the website and RSS feed.
   copyright: {
-    label: 'Gatsby Casper Starter' // Label used before the year
+    label: 'Gatsby Casper Starter', // Label used before the year
     // year: "2018" // optional, set specific copyright year or range of years, defaults to current year
     // url: "https://www.gatsbyjs.org/" // optional, set link address of copyright, defaults to site root
   },
   themeColor: '#c62828', // Used for setting manifest and progress theme colors.
   backgroundColor: '#e0e0e0', // Used for setting manifest background color.
-  promoteGatsby: true // Enables the GatsbyJS promotion information in footer.
+  promoteGatsby: true, // Enables the GatsbyJS promotion information in footer.
 }
 ```
 
@@ -160,7 +158,7 @@ You can also optionally set `pathPrefix`:
 ```js
 module.exports = {
   // Note: it must *not* have a trailing slash.
-  pathPrefix: '/gatsby-starter-casper' // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
+  pathPrefix: '/gatsby-starter-casper', // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
 }
 ```
 
