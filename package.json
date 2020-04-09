@@ -16,10 +16,10 @@
     "clean": "rm -rf .cache && rm -rf public",
     "lint": "yarn lint:js && yarn lint:css && yarn lint:md",
     "lint:js": "eslint --ext .js,.jsx --ignore-pattern public --ignore-pattern static .",
-    "lint:css": "stylelint --fix 'src/**/*.css'",
+    "lint:css": "stylelint 'src/**/*.css'",
     "lint:md": "remark content/posts/",
     "write-good": "write-good $(glob 'content/posts/**/*.md')",
-    "format:js": "prettier '**/*.{js,jsx}' --write",
+    "format": "prettier '**/*.{js,jsx,css}' --write",
     "release": "standard-version -a"
   },
   "dependencies": {
