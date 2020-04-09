@@ -1,17 +1,17 @@
-import React from "react";
+import React from 'react'
 
 class AuthorWebsite extends React.Component {
   render() {
-    const { url } = this.props;
+    const { url } = this.props
     if (url) {
       return (
         <span className="author-link icon-link">
           <a href={url}>{url}</a>
         </span>
-      );
+      )
     }
-    return null;
+    return null
   }
 }
 
-export default AuthorWebsite;
+export default AuthorWebsite

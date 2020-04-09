@@ -1,6 +1,6 @@
 /* Create some space to the right for the share links */
 .post-footer .author {
-    margin-right: 180px;
+  margin-right: 180px;
 }
 
 /* ==========================================================================
@@ -8,9 +8,9 @@
    ========================================================================== */
 
 @media only screen and (max-width: 500px) {
-    .post-footer .author {
-        margin: 0 0 2rem;
-        padding: 0 0 1.6rem;
-        border-bottom: #ebf2f6 1px dashed;
-    }
+  .post-footer .author {
+    margin: 0 0 2rem;
+    padding: 0 0 1.6rem;
+    border-bottom: #ebf2f6 1px dashed;
+  }
 }

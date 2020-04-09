@@ -1,64 +1,64 @@
-import React from "react";
-import Helmet from "react-helmet";
-import PostListing from "../components/PostListing/PostListing";
-import config from "../../data/SiteConfig";
-import Drawer from "../layouts/Drawer/Drawer";
-import Navigation from "../components/Navigation/Navigation";
-import SiteWrapper from "../layouts/SiteWrapper/SiteWrapper";
-import MainHeader from "../layouts/MainHeader/MainHeader";
-import MainNav from "../layouts/MainNav/MainNav";
-import BlogLogo from "../components/BlogLogo/BlogLogo";
-import MenuButton from "../components/MenuButton/MenuButton";
-import AuthorImage from "../components/AuthorImage/AuthorImage";
-import AuthorProfile from "../layouts/AuthorProfile/AuthorProfile";
-import AuthorName from "../components/AuthorName/AuthorName";
-import AuthorBio from "../components/AuthorBio/AuthorBio";
-import AuthorMeta from "../layouts/AuthorMeta/AuthorMeta";
-import AuthorLocation from "../components/AuthorLocation/AuthorLocation";
-import AuthorWebsite from "../components/AuthorWebsite/AuthorWebsite";
-import AuthorStats from "../components/AuthorStats/AuthorStats";
-import Footer from "../components/Footer/Footer";
-import SocialMediaIcons from "../components/SocialMediaIcons/SocialMediaIcons";
+import React from 'react'
+import Helmet from 'react-helmet'
+import PostListing from '../components/PostListing/PostListing'
+import config from '../../data/SiteConfig'
+import Drawer from '../layouts/Drawer/Drawer'
+import Navigation from '../components/Navigation/Navigation'
+import SiteWrapper from '../layouts/SiteWrapper/SiteWrapper'
+import MainHeader from '../layouts/MainHeader/MainHeader'
+import MainNav from '../layouts/MainNav/MainNav'
+import BlogLogo from '../components/BlogLogo/BlogLogo'
+import MenuButton from '../components/MenuButton/MenuButton'
+import AuthorImage from '../components/AuthorImage/AuthorImage'
+import AuthorProfile from '../layouts/AuthorProfile/AuthorProfile'
+import AuthorName from '../components/AuthorName/AuthorName'
+import AuthorBio from '../components/AuthorBio/AuthorBio'
+import AuthorMeta from '../layouts/AuthorMeta/AuthorMeta'
+import AuthorLocation from '../components/AuthorLocation/AuthorLocation'
+import AuthorWebsite from '../components/AuthorWebsite/AuthorWebsite'
+import AuthorStats from '../components/AuthorStats/AuthorStats'
+import Footer from '../components/Footer/Footer'
+import SocialMediaIcons from '../components/SocialMediaIcons/SocialMediaIcons'
 
 class AuthorTemplate extends React.Component {
   state = {
-    menuOpen: false
-  };
+    menuOpen: false,
+  }
 
   handleOnClick = evt => {
-    evt.stopPropagation();
+    evt.stopPropagation()
     if (this.state.menuOpen) {
-      this.closeMenu();
+      this.closeMenu()
     } else {
-      this.openMenu();
+      this.openMenu()
     }
-  };
+  }
 
   handleOnClose = evt => {
-    evt.stopPropagation();
-    this.closeMenu();
-  };
+    evt.stopPropagation()
+    this.closeMenu()
+  }
 
   openMenu = () => {
-    this.setState({ menuOpen: true });
-  };
+    this.setState({ menuOpen: true })
+  }
 
   closeMenu = () => {
-    this.setState({ menuOpen: false });
-  };
+    this.setState({ menuOpen: false })
+  }
 
   render() {
-    const { author, cover } = this.props.pathContext;
+    const { author, cover } = this.props.pathContext
     const postEdges =
       this.props.data.allMarkdownRemark &&
       this.props.data.allMarkdownRemark.edges
         ? this.props.data.allMarkdownRemark.edges
-        : [];
+        : []
     const authorsEdges =
       this.props.data.allAuthorsJson && this.props.data.allAuthorsJson.edges
         ? this.props.data.allAuthorsJson.edges
-        : [];
-    const getAuthor = () => authorsEdges[0].node;
+        : []
+    const getAuthor = () => authorsEdges[0].node
 
     return (
       <Drawer className="author-template" isOpen={this.state.menuOpen}>
@@ -102,7 +102,7 @@ class AuthorTemplate extends React.Component {
           />
         </SiteWrapper>
       </Drawer>
-    );
+    )
   }
 }
 
@@ -146,6 +146,6 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+`
 
-export default AuthorTemplate;
+export default AuthorTemplate

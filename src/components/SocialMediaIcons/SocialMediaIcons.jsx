@@ -1,10 +1,10 @@
-import React from "react";
-import { SocialIcon } from "react-social-icons";
-import "./SocialMediaIcons.css";
+import React from 'react'
+import { SocialIcon } from 'react-social-icons'
+import './SocialMediaIcons.css'
 
 class SocialMediaIcons extends React.Component {
   render() {
-    const { urls, color } = this.props;
+    const { urls, color } = this.props
     if (urls && urls.length > 0) {
       return (
         <div className="social-media-icons">
@@ -18,10 +18,10 @@ class SocialMediaIcons extends React.Component {
             />
           ))}
         </div>
-      );
+      )
     }
-    return null;
+    return null
   }
 }
 
-export default SocialMediaIcons;
+export default SocialMediaIcons

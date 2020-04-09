@@ -1,48 +1,48 @@
-import React from "react";
-import Helmet from "react-helmet";
-import { Link } from "react-scroll";
-import PostListing from "../components/PostListing/PostListing";
-import SEO from "../components/SEO/SEO";
-import config from "../../data/SiteConfig";
-import Drawer from "../layouts/Drawer/Drawer";
-import Navigation from "../components/Navigation/Navigation";
-import SiteWrapper from "../layouts/SiteWrapper/SiteWrapper";
-import Footer from "../components/Footer/Footer";
-import MainHeader from "../layouts/MainHeader/MainHeader";
-import MainNav from "../layouts/MainNav/MainNav";
-import BlogLogo from "../components/BlogLogo/BlogLogo";
-import MenuButton from "../components/MenuButton/MenuButton";
-import PageTitle from "../components/PageTitle/PageTitle";
-import PageDescription from "../components/PageDescription/PageDescription";
-import PaginatedContent from "../layouts/PaginatedContent/PaginatedContent";
-import SocialMediaIcons from "../components/SocialMediaIcons/SocialMediaIcons";
+import React from 'react'
+import Helmet from 'react-helmet'
+import { Link } from 'react-scroll'
+import PostListing from '../components/PostListing/PostListing'
+import SEO from '../components/SEO/SEO'
+import config from '../../data/SiteConfig'
+import Drawer from '../layouts/Drawer/Drawer'
+import Navigation from '../components/Navigation/Navigation'
+import SiteWrapper from '../layouts/SiteWrapper/SiteWrapper'
+import Footer from '../components/Footer/Footer'
+import MainHeader from '../layouts/MainHeader/MainHeader'
+import MainNav from '../layouts/MainNav/MainNav'
+import BlogLogo from '../components/BlogLogo/BlogLogo'
+import MenuButton from '../components/MenuButton/MenuButton'
+import PageTitle from '../components/PageTitle/PageTitle'
+import PageDescription from '../components/PageDescription/PageDescription'
+import PaginatedContent from '../layouts/PaginatedContent/PaginatedContent'
+import SocialMediaIcons from '../components/SocialMediaIcons/SocialMediaIcons'
 
 class IndexTemplate extends React.Component {
   state = {
-    menuOpen: false
-  };
+    menuOpen: false,
+  }
 
   handleOnClick = evt => {
-    evt.stopPropagation();
+    evt.stopPropagation()
     if (this.state.menuOpen) {
-      this.closeMenu();
+      this.closeMenu()
     } else {
-      this.openMenu();
+      this.openMenu()
     }
-  };
+  }
 
   handleOnClose = evt => {
-    evt.stopPropagation();
-    this.closeMenu();
-  };
+    evt.stopPropagation()
+    this.closeMenu()
+  }
 
   openMenu = () => {
-    this.setState({ menuOpen: true });
-  };
+    this.setState({ menuOpen: true })
+  }
 
   closeMenu = () => {
-    this.setState({ menuOpen: false });
-  };
+    this.setState({ menuOpen: false })
+  }
 
   render() {
     const {
@@ -52,9 +52,9 @@ class IndexTemplate extends React.Component {
       total,
       limit,
       prev,
-      next
-    } = this.props.pathContext;
-    const authorsEdges = this.props.data.authors.edges;
+      next,
+    } = this.props.pathContext
+    const authorsEdges = this.props.data.authors.edges
 
     return (
       <Drawer className="home-template" isOpen={this.state.menuOpen}>
@@ -118,7 +118,7 @@ class IndexTemplate extends React.Component {
           />
         </SiteWrapper>
       </Drawer>
-    );
+    )
   }
 }
 
@@ -139,6 +139,6 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+`
 
-export default IndexTemplate;
+export default IndexTemplate

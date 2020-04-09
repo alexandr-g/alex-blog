@@ -1,17 +1,17 @@
-import React, { Component } from "react";
-import classNames from "classnames";
-import Link from "gatsby-link";
-import "./ReadNext.css";
+import React, { Component } from 'react'
+import classNames from 'classnames'
+import Link from 'gatsby-link'
+import './ReadNext.css'
 
 const ReadNextStory = props => {
-  const { post } = props;
+  const { post } = props
   if (post) {
     /** Limit words to 19 in GraphQL * */
-    const { path, cover, title, excerpt } = post;
-    const styles = cover ? { backgroundImage: `url(${cover}` } : null;
-    const classes = classNames("read-next-story", props.className, {
-      "no-cover": !cover
-    });
+    const { path, cover, title, excerpt } = post
+    const styles = cover ? { backgroundImage: `url(${cover}` } : null
+    const classes = classNames('read-next-story', props.className, {
+      'no-cover': !cover,
+    })
     return (
       <Link className={classes} style={styles} to={path}>
         <section className="post">
@@ -19,24 +19,24 @@ const ReadNextStory = props => {
           <p>{excerpt}&hellip;</p>
         </section>
       </Link>
-    );
+    )
   }
-  return null;
-};
+  return null
+}
 
 /**
  * Links to Previous/Next posts
  */
 class ReadNext extends Component {
   render() {
-    const { next, prev } = this.props;
+    const { next, prev } = this.props
     return (
       <aside className="read-next">
         <ReadNextStory post={next} />
         <ReadNextStory className="prev" post={prev} />
       </aside>
-    );
+    )
   }
 }
 
-export default ReadNext;
+export default ReadNext

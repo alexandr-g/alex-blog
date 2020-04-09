@@ -4,12 +4,12 @@ import './Navigation.css'
 
 const Divider = () => null
 
-const Subheader = (props) => {
+const Subheader = props => {
   const { primaryText } = props
   return <h3>{primaryText}</h3>
 }
 
-const ListItem = (props) => {
+const ListItem = props => {
   const { primaryText, component, ...remainingProps } = props
   return (
     <li className="nav-opened" role="presentation">

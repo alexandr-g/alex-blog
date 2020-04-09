@@ -1,13 +1,13 @@
-import React from "react";
-import Helmet from "react-helmet";
-import PostListing from "../components/PostListing/PostListing";
-import config from "../../data/SiteConfig";
+import React from 'react'
+import Helmet from 'react-helmet'
+import PostListing from '../components/PostListing/PostListing'
+import config from '../../data/SiteConfig'
 
 class CategoryTemplate extends React.Component {
   render() {
-    const category = this.props.pathContext.category;
-    const postEdges = this.props.data.allMarkdownRemark.edges;
-    const authorsEdges = this.props.data.authors.edges;
+    const category = this.props.pathContext.category
+    const postEdges = this.props.data.allMarkdownRemark.edges
+    const authorsEdges = this.props.data.authors.edges
     return (
       <div className="category-container">
         <Helmet
@@ -15,7 +15,7 @@ class CategoryTemplate extends React.Component {
         />
         <PostListing postEdges={postEdges} postAuthors={authorsEdges} />
       </div>
-    );
+    )
   }
 }
 
@@ -57,6 +57,6 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+`
 
-export default CategoryTemplate;
+export default CategoryTemplate

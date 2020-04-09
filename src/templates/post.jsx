@@ -33,7 +33,7 @@ function parsePost(post, slug) {
   return result
 }
 
-const formatReadNext = (value) => ({
+const formatReadNext = value => ({
   path: value.fields.slug,
   title: value.frontmatter.title,
   cover: value.frontmatter.cover,
@@ -45,7 +45,7 @@ class PostTemplate extends React.Component {
     menuOpen: false,
   }
 
-  handleOnClick = (evt) => {
+  handleOnClick = evt => {
     evt.stopPropagation()
     if (this.state.menuOpen) {
       this.closeMenu()
@@ -54,7 +54,7 @@ class PostTemplate extends React.Component {
     }
   }
 
-  handleOnClose = (evt) => {
+  handleOnClose = evt => {
     evt.stopPropagation()
     this.closeMenu()
   }

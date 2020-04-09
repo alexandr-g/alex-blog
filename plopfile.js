@@ -1,4 +1,4 @@
-module.exports = (plop) => {
+module.exports = plop => {
   // blog post boilerplate
   plop.setGenerator('blogpost', {
     description:

@@ -3,5 +3,5 @@
    with browser width % calculations and rounding */
 .post-template .content,
 .page-template .content {
-    overflow: hidden;
+  overflow: hidden;
 }

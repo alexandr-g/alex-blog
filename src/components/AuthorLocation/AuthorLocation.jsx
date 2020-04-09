@@ -1,13 +1,13 @@
-import React from "react";
+import React from 'react'
 
 class AuthorLocation extends React.Component {
   render() {
-    const { location } = this.props;
+    const { location } = this.props
     if (location) {
-      return <span className="author-location icon-location">{location}</span>;
+      return <span className="author-location icon-location">{location}</span>
     }
-    return null;
+    return null
   }
 }
 
-export default AuthorLocation;
+export default AuthorLocation
