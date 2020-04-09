@@ -27,7 +27,7 @@ What they offer are web and mobile apps with a great selection of books in diffe
 
 ## One year in review with Blinkist premium
 
-<img src="https://i.imgur.com/o6qTD4G.jpg" width="710" />
+<img src="https://i.imgur.com/o6qTD4G.jpg" width="250" />
 
 I completed 50+ blinks in one year. I don't think that is a lot and I'm pretty sure some people are reading this amount in two months or so but it is what it is.
 
