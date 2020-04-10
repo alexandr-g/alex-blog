@@ -69,7 +69,6 @@ More information in the [announcement](https://www.gatsbyjs.org/blog/gatsby-firs
   - ESLint for linting
   - Prettier for code style
   - Remark-Lint for linting Markdown
-  - write-good for linting English prose
   - gh-pages for deploying to GitHub pages
   - CodeClimate configuration file and badge
 
