@@ -16,7 +16,6 @@
     "clean": "rm -rf .cache && rm -rf public",
     "lint": "yarn lint:js && yarn lint:css && yarn lint:md",
     "lint:js": "eslint --ext .js,.jsx --ignore-pattern public --ignore-pattern static .",
-    "lint:md": "remark content/posts/",
     "format": "prettier '**/*.{js,jsx,css}' --write"
   },
   "dependencies": {
