@@ -22,7 +22,7 @@
     "release": "standard-version -a"
   },
   "dependencies": {
-    "babel-eslint": "^8.1.2",
+    "babel-eslint": "^10.0.0",
     "babel-plugin-lodash": "^3.2.11",
     "classnames": "^2.2.5",
     "gatsby": "^1.9.279",
