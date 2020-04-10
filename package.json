@@ -68,10 +68,5 @@
     "prettier": "2.0.4"
   },
   "license": "MIT",
-  "main": "n/a",
-  "remarkConfig": {
-    "plugins": [
-      "remark-preset-lint-recommended"
-    ]
-  }
+  "main": "n/a"
 }
