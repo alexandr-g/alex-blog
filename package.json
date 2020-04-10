@@ -3,6 +3,7 @@
   "description": "Alexander Grischuk personal blog based on GatsbyJS starter kit with the Casper theme.",
   "version": "0.0.2",
   "author": "Alexander Grischuk <alexgrischuk@gmail.com>",
+  "license": "MIT",
   "engines": {
     "node": "10.x.x"
   },
@@ -66,7 +67,5 @@
     "gh-pages": "2.2.0",
     "plop": "2.6.0",
     "prettier": "2.0.4"
-  },
-  "license": "MIT",
-  "main": "n/a"
+  }
 }
