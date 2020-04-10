@@ -16,10 +16,8 @@
     "clean": "rm -rf .cache && rm -rf public",
     "lint": "yarn lint:js && yarn lint:css && yarn lint:md",
     "lint:js": "eslint --ext .js,.jsx --ignore-pattern public --ignore-pattern static .",
-    "lint:css": "stylelint 'src/**/*.css'",
     "lint:md": "remark content/posts/",
-    "format": "prettier '**/*.{js,jsx,css}' --write",
-    "release": "standard-version -a"
+    "format": "prettier '**/*.{js,jsx,css}' --write"
   },
   "dependencies": {
     "babel-eslint": "^10.0.0",
@@ -70,10 +68,7 @@
     "plop": "2.6.0",
     "prettier": "1.19.1",
     "remark-cli": "4.0.0",
-    "remark-preset-lint-recommended": "3.0.4",
-    "standard-version": "4.4.0",
-    "stylelint": "13.3.1",
-    "stylelint-config-standard": "20.0.0"
+    "remark-preset-lint-recommended": "3.0.4"
   },
   "keywords": [
     "gatsby",
