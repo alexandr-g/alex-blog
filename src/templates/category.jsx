@@ -5,7 +5,7 @@ import config from '../../data/SiteConfig'
 
 class CategoryTemplate extends React.Component {
   render() {
-    const category = this.props.pathContext.category
+    const category = this.props.pageContext.category
     const postEdges = this.props.data.allMarkdownRemark.edges
     const authorsEdges = this.props.data.authors.edges
     return (

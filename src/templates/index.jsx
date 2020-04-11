@@ -22,7 +22,7 @@ class IndexTemplate extends React.Component {
     menuOpen: false,
   }
 
-  handleOnClick = evt => {
+  handleOnClick = (evt) => {
     evt.stopPropagation()
     if (this.state.menuOpen) {
       this.closeMenu()
@@ -31,7 +31,7 @@ class IndexTemplate extends React.Component {
     }
   }
 
-  handleOnClose = evt => {
+  handleOnClose = (evt) => {
     evt.stopPropagation()
     this.closeMenu()
   }
@@ -53,7 +53,7 @@ class IndexTemplate extends React.Component {
       limit,
       prev,
       next,
-    } = this.props.pathContext
+    } = this.props.pageContext
     const authorsEdges = this.props.data.authors.edges
 
     return (
