@@ -12022,10 +12022,10 @@ react-router@^4.1.1, react-router@^4.2.0:
     prop-types "^15.5.4"
     warning "^3.0.0"
 
-react-scroll@1.7.9:
-  version "1.7.9"
-  resolved "https://registry.yarnpkg.com/react-scroll/-/react-scroll-1.7.9.tgz#83e6bfc1e10a7b7ff7dbc34008b76737501aba6b"
-  integrity sha512-baTwyz2FxaZWZ/4yEAWQEGE4CMZzGj/AjvLu/x4xmAisFgSAq3D0QED3deI6D4zeJTSEmeuy8Hm01IS+IDbKIg==
+react-scroll@1.7.16:
+  version "1.7.16"
+  resolved "https://registry.yarnpkg.com/react-scroll/-/react-scroll-1.7.16.tgz#814f0b97ed171aad1f27e45dad16a8444817fec8"
+  integrity sha512-f4M5AdL+3cw3MJ7c/T0hPMY2iHCeQLDXV13lRanAFQ6JIt9xyAdHCpTH9mLUQt9SQh4pRarD+Qc7KhU6qMx3Yg==
   dependencies:
     lodash.throttle "^4.1.1"
     prop-types "^15.5.8"
