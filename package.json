@@ -19,10 +19,9 @@
     "format": "prettier '**/*.{js,jsx,css}' --write"
   },
   "dependencies": {
-    "babel-eslint": "^10.0.0",
+    "babel-eslint": "^10.1.0",
     "classnames": "^2.2.6",
     "gatsby": "^2.20.18",
-    "gatsby-link": "^2.0.0",
     "gatsby-pagination": "^1.1.0",
     "gatsby-plugin-catch-links": "^2.0.0",
     "gatsby-plugin-feed": "^2.0.0",
