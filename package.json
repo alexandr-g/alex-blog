@@ -20,7 +20,6 @@
   },
   "dependencies": {
     "babel-eslint": "^10.0.0",
-    "babel-plugin-lodash": "^3.3.4",
     "classnames": "^2.2.6",
     "gatsby": "^2.20.18",
     "gatsby-link": "^2.0.0",
@@ -44,7 +43,6 @@
     "gatsby-transformer-json": "^2.0.0",
     "gatsby-transformer-remark": "^2.7.1",
     "lodash": "^4.17.15",
-    "lodash-webpack-plugin": "^0.11.4",
     "moment": "^2.24.0",
     "prismjs": "^1.20.0",
     "react": "^16.13.1",

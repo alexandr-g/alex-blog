@@ -1,7 +1,6 @@
 const path = require('path')
 const _ = require('lodash')
 const fs = require('fs')
-const webpackLodashPlugin = require('lodash-webpack-plugin')
 const siteConfig = require('./data/SiteConfig')
 const {
   createPaginationPages,
@@ -84,7 +83,7 @@ exports.createPages = ({ graphql, actions }) => {
             }
           }
         `
-      ).then(result => {
+      ).then((result) => {
         if (result.errors) {
           /* eslint no-console: "off" */
           console.log(result.errors)
@@ -104,7 +103,7 @@ exports.createPages = ({ graphql, actions }) => {
           createPage,
           edges: result.data.allMarkdownRemark.edges,
           component: postPage,
-          edgeParser: edge => ({
+          edgeParser: (edge) => ({
             path: edge.node.fields.slug,
             context: {
               slug: edge.node.fields.slug,
@@ -119,9 +118,9 @@ exports.createPages = ({ graphql, actions }) => {
         const authorSet = new Set()
         authorSet.add(siteConfig.blogAuthorId)
 
-        result.data.allMarkdownRemark.edges.forEach(edge => {
+        result.data.allMarkdownRemark.edges.forEach((edge) => {
           if (edge.node.frontmatter.tags) {
-            edge.node.frontmatter.tags.forEach(tag => {
+            edge.node.frontmatter.tags.forEach((tag) => {
               tagSet.add(tag)
 
               const array = tagMap.has(tag) ? tagMap.get(tag) : []
@@ -139,10 +138,10 @@ exports.createPages = ({ graphql, actions }) => {
           }
         })
 
-        const tagFormatter = tag => route =>
+        const tagFormatter = (tag) => (route) =>
           `/tags/${_.kebabCase(tag)}/${route !== 1 ? route : ''}`
         const tagList = Array.from(tagSet)
-        tagList.forEach(tag => {
+        tagList.forEach((tag) => {
           // Creates tag pages
           createPaginationPages({
             createPage,
@@ -157,7 +156,7 @@ exports.createPages = ({ graphql, actions }) => {
         })
 
         const categoryList = Array.from(categorySet)
-        categoryList.forEach(category => {
+        categoryList.forEach((category) => {
           createPage({
             path: `/categories/${_.kebabCase(category)}/`,
             component: categoryPage,
@@ -168,7 +167,7 @@ exports.createPages = ({ graphql, actions }) => {
         })
 
         const authorList = Array.from(authorSet)
-        authorList.forEach(author => {
+        authorList.forEach((author) => {
           createPage({
             path: `/author/${_.kebabCase(author)}/`,
             component: authorPage,
@@ -180,12 +179,4 @@ exports.createPages = ({ graphql, actions }) => {
       })
     )
   })
-}
-
-// exports.onCreateWebpackConfig = ({ actions, stage }) => {
-//   if (stage === 'build-javascript') {
-//     actions.setWebpackConfig({
-//       plugins: [webpackLodashPlugin],
-//     })
-//   }
 }
