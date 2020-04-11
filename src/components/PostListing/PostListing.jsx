@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import AuthorThumbnail from '../AuthorThumbnail/AuthorThumbnail'
 import PostTags from '../PostTags/PostTags'
 import SiteConfig from '../../../data/SiteConfig'
@@ -11,7 +11,7 @@ import AuthorModel from '../../models/author-model'
 import './PostListing.css'
 
 const getPostList = (postEdges, authorEdges) =>
-  postEdges.map(postEdge => ({
+  postEdges.map((postEdge) => ({
     path: postEdge.node.fields.slug,
     tags: postEdge.node.frontmatter.tags,
     cover: postEdge.node.frontmatter.cover,
@@ -33,7 +33,7 @@ class PostListing extends React.Component {
     return (
       <div>
         {/* This is the post loop - each post will be output using this markup */}
-        {postList.map(post => {
+        {postList.map((post) => {
           const { title, path, excerpt, author, tags, date } = post
           const className = post.post_class ? post.post_class : 'post'
 

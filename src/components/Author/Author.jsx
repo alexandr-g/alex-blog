@@ -1,8 +1,8 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import './Author.css'
 
-const Bio = props => {
+const Bio = (props) => {
   const { text } = props
   if (text) {
     return <p>{text}</p>
@@ -14,7 +14,7 @@ const Bio = props => {
   )
 }
 
-const Location = props => {
+const Location = (props) => {
   const { location } = props
   if (location) {
     return (
@@ -30,7 +30,7 @@ const Location = props => {
   return null
 }
 
-const Website = props => {
+const Website = (props) => {
   const { url } = props
   if (url) {
     return (

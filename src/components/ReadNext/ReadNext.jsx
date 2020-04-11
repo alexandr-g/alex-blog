@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import classNames from 'classnames'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import './ReadNext.css'
 
-const ReadNextStory = props => {
+const ReadNextStory = (props) => {
   const { post } = props
   if (post) {
     /** Limit words to 19 in GraphQL * */
