@@ -1,5 +1,5 @@
 ---
-title: 'Taking control of your data while migrating from Wunderlist to Joplin'
+title: 'Migrating tasks and notes from Wunderlist to Joplin'
 date: '2020-04-09'
 author: 'alex'
 category: 'tech'
