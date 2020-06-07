@@ -260,3 +260,91 @@ export const config = {
 
 export default apolloServer.createHandler({ path: '/api/graphql' })
 ```
+
+### Configuring .env variables
+
+It's not recommended checking in your MongoDB URI directly to git for security and deployment convenience. We will make Mongodb URI accessible vie environment variables and pull it from there.
+
+First, install `dotenv` npm package
+
+```bash
+yarn add dotenv
+```
+
+Create `.env` file at the project root with your `MONGO_DB_URI`
+
+```bash
+MONGO_DB_URI=mongodb+srv://test:qwerty123@cluster0-yvwjx.mongodb.net/next-graphql?retryWrites=true&w=majority
+```
+
+```js
+// pages/api/graphql.js
+import { ApolloServer, gql } from 'apollo-server-micro'
+import { makeExecutableSchema } from 'graphql-tools'
+import { MongoClient } from 'mongodb'
+
+require('dotenv').config()
+
+const typeDefs = gql`
+  type User {
+    id: ID!
+    firstName: String!
+    lastName: String!
+    blog: String
+    stars: Int
+  }
+
+  type Query {
+    users: [User]!
+  }
+`
+
+const resolvers = {
+  Query: {
+    users(_parent, _args, _context, _info) {
+      return _context.db
+        .collection('users')
+        .findOne()
+        .then((data) => {
+          return data.users
+        })
+    },
+  },
+}
+
+const schema = makeExecutableSchema({
+  typeDefs,
+  resolvers,
+})
+
+let db
+
+const apolloServer = new ApolloServer({
+  schema,
+  context: async () => {
+    if (!db) {
+      try {
+        const dbClient = new MongoClient(process.env.MONGO_DB_URI, {
+          useNewUrlParser: true,
+          useUnifiedTopology: true,
+        })
+
+        if (!dbClient.isConnected()) await dbClient.connect()
+        db = dbClient.db('next-graphql') // database name
+      } catch (e) {
+        console.log('--->error while connecting via graphql context (db)', e)
+      }
+    }
+
+    return { db }
+  },
+})
+
+export const config = {
+  api: {
+    bodyParser: false,
+  },
+}
+
+export default apolloServer.createHandler({ path: '/api/graphql' })
+```
