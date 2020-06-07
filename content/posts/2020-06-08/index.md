@@ -234,7 +234,7 @@ const apolloServer = new ApolloServer({
     if (!db) {
       try {
         const dbClient = new MongoClient(
-          'mongodb+srv://olex:qwerty123@cluster0-pmimo.mongodb.net/test?retryWrites=true&w=majority',
+          'mongodb+srv://test:qwerty123@cluster0-yvwjx.mongodb.net/next-graphql?retryWrites=true&w=majority',
           {
             useNewUrlParser: true,
             useUnifiedTopology: true,
