@@ -88,3 +88,61 @@ After the setup you should see your cluster running:
 // image of a cluster with DB here
 
 We can insert some document/data into our database manually or via code execution. We are done here.
+
+## Setting up a GraphQL API with Apollo Server
+
+Right now we don't have any graphql setup in our application. When we navigate to the `http://localhost:3000/api/hello` we'll see
+
+```js
+{"name":"John Doe"}
+```
+
+the output which is served from the `pages/api/hello.js` file.
+
+What we need is to create a new endpoint under `pages/api/graphql.js` that's where our Apollo Server GraphQL setup will be located. Call to GraphQL API will be served from `http://localhost:3000/api/graphql`.
+
+### Install apollo-server-micro graphql mongodb
+
+Let's install packaged required for the Apollo Server setup
+
+```bash
+yarn add apollo-server-micro graphql mongodb
+```
+
+### Create a basic GraphQL server
+
+Add `graphql.js` file under `pages/api/`.
+
+```js
+// pages/api/graphql.js
+import { ApolloServer, gql } from 'apollo-server-micro'
+
+const typeDefs = gql`
+  type Query {
+    sayHello: String
+  }
+`
+
+const resolvers = {
+  Query: {
+    sayHello(parent, args, context) {
+      return 'Hello World!'
+    },
+  },
+}
+
+export const config = {
+  api: {
+    bodyParser: false,
+  },
+}
+
+const apolloServer = new ApolloServer({ typeDefs, resolvers })
+export default apolloServer.createHandler({ path: '/api/graphql' })
+```
+
+We created a new instance of the ApolloServer, passing our type definitions and resolvers to it and serving this graphql on `/api/graphql` path.
+
+When you navigate to the `http://localhost:3000/api/graphql` you should see a GraphQL Playground where you could execute mutation/queries.
+
+// image of the GraphQL Playground here
