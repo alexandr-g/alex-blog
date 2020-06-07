@@ -16,7 +16,8 @@
     "build:prod": "yarn clean && yarn build && yarn serve",
     "clean": "rm -rf .cache && rm -rf public",
     "lint": "eslint --ext .js,.jsx --ignore-pattern public --ignore-pattern static .",
-    "format": "prettier '**/*.{js,jsx,css}' --write"
+    "format": "prettier '**/*.{js,jsx,css}' --write",
+    "new:post": "plop"
   },
   "dependencies": {
     "babel-eslint": "10.1.0",
