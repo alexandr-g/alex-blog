@@ -175,3 +175,88 @@ Here's my data representation. I'll insert it manually into our MongoDB:
   ]
 }
 ```
+
+## Creating executable schema and connecting mongo client to DB
+
+Graphql schema is a combination of `typeDefs` and resolvers.
+
+To make schema executable we need to install `graphql-tools`
+
+```bash
+yarn add graphql-tools
+```
+
+Let's describe a data query in our `typeDefs` and `resolvers`. We want to query a list of users from the MongoDB.
+
+```js
+// pages/api/graphql.js
+import { ApolloServer, gql } from 'apollo-server-micro'
+import { makeExecutableSchema } from 'graphql-tools'
+import { MongoClient } from 'mongodb'
+
+const typeDefs = gql`
+  type User {
+    id: ID!
+    firstName: String!
+    lastName: String!
+    blog: String
+    stars: Int
+  }
+
+  type Query {
+    users: [User]!
+  }
+`
+
+const resolvers = {
+  Query: {
+    users(_parent, _args, _context, _info) {
+      return _context.db
+        .collection('users')
+        .findOne()
+        .then((data) => {
+          return data.users
+        })
+    },
+  },
+}
+
+const schema = makeExecutableSchema({
+  typeDefs,
+  resolvers,
+})
+
+let db
+
+const apolloServer = new ApolloServer({
+  schema,
+  context: async () => {
+    if (!db) {
+      try {
+        const dbClient = new MongoClient(
+          'mongodb+srv://olex:qwerty123@cluster0-pmimo.mongodb.net/test?retryWrites=true&w=majority',
+          {
+            useNewUrlParser: true,
+            useUnifiedTopology: true,
+          }
+        )
+
+        if (!dbClient.isConnected()) await dbClient.connect()
+        db = dbClient.db('MCT') // database name
+      } catch (e) {
+        console.log('--->error while connecting with graphql context (db)', e)
+      }
+    }
+
+    return { db }
+  },
+})
+
+export const config = {
+  api: {
+    bodyParser: false,
+  },
+}
+
+export default apolloServer.createHandler({ path: '/api/graphql' })
+```
