@@ -55,12 +55,17 @@ I'm going to be using an instance of the cloud Mongo database.
 1. Navigate to the [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) page
 2. Click "Start Free" and sign up for the MongoDB account
 3. On the "Projects" page click on "New Project" give it a name and create
-4. Add Members. For the test case, it's you
+4. Add Members. You're already a member -> hit continue
 5. Build Cluster -> Select Free Tier
 6. Select Cloud Provider & Region and Create Cluster
+
+   <img src="https://i.imgur.com/tQMyOD0.png" width="710" />
+
 7. After the cluster was initialized click on "connect"
 
 - Whitelist a connection IP address -> Add a Different IP Address -> Enter `0.0.0.0/0` to the IP Address in order to access this DB from anywhere.
+
+<img src="https://i.imgur.com/7XFQnz0.png" width="710" />
 
 - Create a MongoDB User -> Enter Username and Password
 
@@ -79,13 +84,15 @@ Nice. We have a URL to the cloud DB instance to which we can connect from our co
 
 9. Navigate to the Collections tab and click Add my Own Data
 
+<img src="https://i.imgur.com/YQOHeOu.png" width="710" />
+
 - Give DATABASE NAME/COLLECTION NAME and hit Create
 
-// image here
+<img src="https://i.imgur.com/kRQ2ufi.png" width="410"/>
 
 After the setup you should see your cluster running:
 
-// image of a cluster with DB here
+<img src="https://i.imgur.com/edGlEPO.png" width="710" />
 
 We can insert some document/data into our database manually or via code execution. We are done here.
 
@@ -145,7 +152,7 @@ We created a new instance of the ApolloServer, passing our type definitions and 
 
 When you navigate to the `http://localhost:3000/api/graphql` you should see a GraphQL Playground where you could execute mutation/queries.
 
-// image of the GraphQL Playground here
+<img src="https://i.imgur.com/WmWfL2X.png" width="710" />
 
 That's great but our API doesn't do much for the moment. It was just for testing. Let's add a MongoDB connection.
 
@@ -153,7 +160,7 @@ That's great but our API doesn't do much for the moment. It was just for testing
 
 Before adding a MongoDB connection let's talk about data. For the example purpose our application will be displaying a list of users from MongoDB.
 
-Here's my data representation. I'll insert it manually into our MongoDB:
+Here's my data representation:
 
 ```json
 {
@@ -175,6 +182,12 @@ Here's my data representation. I'll insert it manually into our MongoDB:
   ]
 }
 ```
+
+I'll insert it manually into the MongoDB:
+
+<img src="https://i.imgur.com/WYMgfXM.png" width="510" />
+
+<img src="https://i.imgur.com/7WEeu8n.png" width="510" />
 
 ## Creating executable schema and connecting mongo client to DB
 
@@ -242,7 +255,7 @@ const apolloServer = new ApolloServer({
         )
 
         if (!dbClient.isConnected()) await dbClient.connect()
-        db = dbClient.db('MCT') // database name
+        db = dbClient.db('next-graphql') // database name
       } catch (e) {
         console.log('--->error while connecting with graphql context (db)', e)
       }
@@ -349,7 +362,7 @@ export const config = {
 export default apolloServer.createHandler({ path: '/api/graphql' })
 ```
 
-### Testing MongoDB connection in GraphQL Playground
+## Testing GraphQL API with MongoDB connection in GraphQL Playground
 
 Navigate to `http://localhost:3000/api/graphql` and make a query
 
@@ -358,13 +371,12 @@ Navigate to `http://localhost:3000/api/graphql` and make a query
   users {
     id
     firstName
-    lastName
   }
 }
 ```
 
-// GraphQL Playground image
+Query results from MongoDB connection:
 
-It works!
+<img src="https://i.imgur.com/84g5B4s.png" width="710" />
 
-In our MongoClient set up, we initialize a new database connection using `new MongoClient()` with MongoDB cloud URL read from our `.env` file. We return db object `{ db }` from our context function to be accessible via `_context` in our resolvers. That's it! As soon as you have access to the database in your resolvers, you can perform read/write operations there for your queries and mutations.
+In our MongoClient set up, we initialize a new database connection using `new MongoClient()` with MongoDB cloud URI read from our `.env` file. We return db object `{ db }` from our context function to be accessible via `_context` in our resolvers. That's it! As soon as you have access to the database in your resolvers, you can perform read/write operations there for your queries and mutations.
