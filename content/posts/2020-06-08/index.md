@@ -380,3 +380,7 @@ Query results from MongoDB connection:
 <img src="https://i.imgur.com/84g5B4s.png" width="710" />
 
 In our MongoClient set up, we initialize a new database connection using `new MongoClient()` with MongoDB cloud URI read from our `.env` file. We return db object `{ db }` from our context function to be accessible via `_context` in our resolvers. That's it! As soon as you have access to the database in your resolvers, you can perform read/write operations there for your queries and mutations.
+
+## [graphql-apollo-mongodb-example](https://github.com/alexandr-g/graphql-apollo-mongodb-example)
+
+I created supporting [repository](https://github.com/alexandr-g/graphql-apollo-mongodb-example) for this article so you can follow along commit-by-commit.
