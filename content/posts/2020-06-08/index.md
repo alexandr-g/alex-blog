@@ -146,3 +146,32 @@ We created a new instance of the ApolloServer, passing our type definitions and 
 When you navigate to the `http://localhost:3000/api/graphql` you should see a GraphQL Playground where you could execute mutation/queries.
 
 // image of the GraphQL Playground here
+
+That's great but our API doesn't do much for the moment. It was just for testing. Let's add a MongoDB connection.
+
+### Adding MongoDB connection to our Apollo Server
+
+Before adding a MongoDB connection let's talk about data. For the example purpose our application will be displaying a list of users from MongoDB.
+
+Here's my data representation. I'll insert it manually into our MongoDB:
+
+```json
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Alexander",
+      "lastName": "Grischuk",
+      "blog": "https://grischuk.de/",
+      "stars": 5
+    },
+    {
+      "id": 2,
+      "firstName": "Max",
+      "lastName": "Mustermann",
+      "blog": "mustermann.de",
+      "stars": 3
+    }
+  ]
+}
+```
