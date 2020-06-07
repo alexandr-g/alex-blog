@@ -348,3 +348,23 @@ export const config = {
 
 export default apolloServer.createHandler({ path: '/api/graphql' })
 ```
+
+### Testing MongoDB connection in GraphQL Playground
+
+Navigate to `http://localhost:3000/api/graphql` and make a query
+
+```js
+{
+  users {
+    id
+    firstName
+    lastName
+  }
+}
+```
+
+// GraphQL Playground image
+
+It works!
+
+In our MongoClient set up, we initialize a new database connection using `new MongoClient()` with MongoDB cloud URL read from our `.env` file. We return db object `{ db }` from our context function to be accessible via `_context` in our resolvers. That's it! As soon as you have access to the database in your resolvers, you can perform read/write operations there for your queries and mutations.
