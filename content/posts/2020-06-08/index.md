@@ -45,3 +45,46 @@ yarn dev
 ```
 
 Cool! Our NextJS app is running on `http://localhost:3000`.
+
+## Setting up MongoDB Atlas
+
+> MongoDB Atlas is the global cloud database service for modern applications. Deploy fully managed MongoDB across AWS, Azure, or GCP. Best-in-class automation and proven practices guarantee availability, scalability, and compliance with the most demanding data security and privacy standards. Use MongoDB's robust ecosystem of drivers, integrations, and tools to build faster and spend less time managing your database.
+
+I'm going to be using an instance of the cloud Mongo database.
+
+1. Navigate to the [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) page
+2. Click "Start Free" and sign up for the MongoDB account
+3. On the "Projects" page click on "New Project" give it a name and create
+4. Add Members. For the test case, it's you
+5. Build Cluster -> Select Free Tier
+6. Select Cloud Provider & Region and Create Cluster
+7. After the cluster was initialized click on "connect"
+
+- Whitelist a connection IP address -> Add a Different IP Address -> Enter `0.0.0.0/0` to the IP Address in order to access this DB from anywhere.
+
+- Create a MongoDB User -> Enter Username and Password
+
+- You'll be using this user in order to connect to the DB instance. Finally hit Create MongoDB User
+
+8. Choose a connection method -> Select Connect Your Application and select Node.js
+
+- Add your connection string into your application code
+- Copy and save your application string
+
+```bash
+"mongodb+srv://test:<password>@cluster0-yvwjx.mongodb.net/<dbname>?retryWrites=true&w=majority"
+```
+
+Nice. We have a URL to the cloud DB instance to which we can connect from our code but we don't have a DB yet. Let's go and create a new DB.
+
+9. Navigate to the Collections tab and click Add my Own Data
+
+- Give DATABASE NAME/COLLECTION NAME and hit Create
+
+// image here
+
+After the setup you should see your cluster running:
+
+// image of a cluster with DB here
+
+We can insert some document/data into our database manually or via code execution. We are done here.
