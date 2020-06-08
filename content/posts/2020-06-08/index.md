@@ -59,7 +59,7 @@ I'm going to be using an instance of the cloud Mongo database.
 5. Build Cluster -> Select Free Tier
 6. Select Cloud Provider & Region and Create Cluster
 
-   <img src="https://i.imgur.com/tQMyOD0.png" width="710" />
+<img src="https://i.imgur.com/tQMyOD0.png" width="710" />
 
 7. After the cluster was initialized click on "connect"
 
@@ -101,7 +101,7 @@ We can insert some document/data into our database manually or via code executio
 Right now we don't have any graphql setup in our application. When we navigate to the `http://localhost:3000/api/hello` we'll see
 
 ```js
-{"name":"John Doe"}
+{ "name": "John Doe" }
 ```
 
 the output which is served from the `pages/api/hello.js` file.
