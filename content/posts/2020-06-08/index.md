@@ -1,5 +1,5 @@
 ---
-title: 'Setting Apollo GraphQL API with MongoDB connection for a NextJS app'
+title: 'Setting up GraphQL API with MongoDB and Apollo Server for a NextJS app'
 date: '2020-06-08'
 author: 'alex'
 category: 'tech'
