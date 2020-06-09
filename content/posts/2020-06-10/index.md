@@ -372,7 +372,7 @@ After the refactoring our API still works as expected:
 
 <img src="https://i.imgur.com/edutfC9.png" width="710" />
 
-## Creating Users component and Performing queries to the GraphQL API
+## Create Users component and perform queries to the GraphQL API
 
 Create `components/Users.js` component which will display a list of users:
 
@@ -528,7 +528,7 @@ const Index = () => {
 export default withApollo(Index)
 ```
 
-That's it! We can perform queries to our GraphQL with Apollo and fetch data from our MongoDB.
+That's it! We can perform queries to our GraphQL API with Apollo Client and fetch data from the MongoDB.
 
 ## [graphql-apollo-mongodb-example](https://github.com/alexandr-g/graphql-apollo-mongodb-example)
 
