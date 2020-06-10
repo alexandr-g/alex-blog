@@ -24,15 +24,15 @@ tags:
 
 In the previous article [Setting up GraphQL API with MongoDB and Apollo Server for a NextJS app](https://grischuk.de/setting-up-graph-ql-api-with-mongo-db-and-apollo-server-for-a-next-js-app) we've created a GraphQL API with Apollo Server setup and connection to the MongoDB. We worked mainly on the **server side** of the application.
 
-If you haven't please follow along if you haven't and read the first part.
+It's recommended to read and follow along the first part if you haven't.
 
-In this article, we're moving to the **client side** of the application and we'll learn how to consume an API that we've created. Meaning, performing queries and mutation from our NextJS application client to the GraphQL API.
+In this article, we're moving to the **client side** of the application and we'll learn how to consume an API that we've created in the first part. Meaning, performing queries from our NextJS application to the GraphQL API.
 
 ## An idea
 
-In order to perform queries to our GraphQL API from the client-side (not only from the GraphQL Playground) we'll need to setup [Apollo Client](https://www.apollographql.com/docs/react/).
+In order to perform queries to our GraphQL API from the client-side (and not only from the GraphQL Playground) we'll need to setup [Apollo Client](https://www.apollographql.com/docs/react/).
 
-Using a custom implementation of the `withApollo()` high-order component we wrap index file of the application with and be able to make queries to the API.
+Using a custom implementation of the `withApollo()` high-order component we are going to wrap index file with it and make queries to the API.
 
 ## Installing Apollo Client and related dependencies
 
