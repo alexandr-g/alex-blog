@@ -1,5 +1,5 @@
 ---
-title: 'Setup Apollo Client in order to perform GraphQL queries in NextJS app'
+title: 'How to setup Apollo Client in order to perform GraphQL queries with NextJS'
 date: '2020-06-10'
 author: 'alex'
 category: 'tech'
