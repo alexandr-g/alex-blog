@@ -22,6 +22,8 @@ module.exports = {
     'https://de.linkedin.com/in/alxgi',
     'mailto:alexgrischuk@gmail.com',
     'https://www.instagram.com/centra_l/',
+    'https://medium.com/@alexgrischuk',
+    'https://dev.to/alexandrg',
   ],
   postDefaultCategoryID: 'Tech', // Default category for posts.
   // Links to social profiles/projects you want to display in the navigation bar.
@@ -45,6 +47,15 @@ module.exports = {
       label: 'Instagram',
       url: 'https://www.instagram.com/centra_l/',
       iconClassName: 'fa fa-instagram',
+    },
+    {
+      label: 'Medium',
+      url: 'https://medium.com/@alexgrischuk',
+      iconClassName: 'fa fa-medium',
+    },
+    {
+      label: 'Dev.to',
+      url: 'https://dev.to/alexandrg',
     },
   ],
   // Copyright string for the footer of the website and RSS feed.

@@ -8,7 +8,7 @@ class SocialMediaIcons extends React.Component {
     if (urls && urls.length > 0) {
       return (
         <div className="social-media-icons">
-          {urls.map(url => (
+          {urls.map((url) => (
             <SocialIcon
               key={url}
               className="social-media-icon"
