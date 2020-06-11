@@ -533,3 +533,5 @@ That's it! We can perform queries to our GraphQL API with Apollo Client and fetc
 ## [graphql-apollo-mongodb-example](https://github.com/alexandr-g/graphql-apollo-mongodb-example)
 
 I created supporting [repository](https://github.com/alexandr-g/graphql-apollo-mongodb-example) for this article so you can follow along commit-by-commit.
+
+See deployed project preview [here](https://graphql-apollo-mongodb-example.now.sh)
