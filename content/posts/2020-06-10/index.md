@@ -196,13 +196,14 @@ function createIsomorphLink() {
 }
 ```
 
-## Sharing schema for Apollo Client and Server
+## Sharing schema between Apollo Client and Apollo Server
 
 Our GraphQL schema is located now under the `pages/api/graphql.js` alongside with our Apollo Server setup.
 
 Before we had all the setup in on file on the server, like so:
 
 ```js
+// pages/api/graphql.js
 import { ApolloServer, gql } from 'apollo-server-micro'
 import { makeExecutableSchema } from 'graphql-tools'
 import { MongoClient } from 'mongodb'
@@ -532,6 +533,6 @@ That's it! We can perform queries to our GraphQL API with Apollo Client and fetc
 
 ## [graphql-apollo-mongodb-example](https://github.com/alexandr-g/graphql-apollo-mongodb-example)
 
-I created supporting [repository](https://github.com/alexandr-g/graphql-apollo-mongodb-example) for this article so you can follow along commit-by-commit.
+I created a supporting [repository](https://github.com/alexandr-g/graphql-apollo-mongodb-example) for this article so you can follow along commit-by-commit.
 
 See deployed project preview [here](https://graphql-apollo-mongodb-example.now.sh)
