@@ -58,6 +58,12 @@ module.exports = {
       url: 'https://dev.to/alexandrg',
     },
   ],
+  menuLinks: [
+    {
+      name: 'About me',
+      link: '/about/',
+    },
+  ],
   // Copyright string for the footer of the website and RSS feed.
   copyright: {
     label: 'Alexander Grischuk - Frontend Engineer - React', // Label used before the year
