@@ -5,8 +5,8 @@ import config from '../../../data/SiteConfig'
 const About = () => (
   <div className="about">
     <p>
-      Hi there! I’m Alex, <strong>a frontend-focused software developer</strong>
-      , <strong>OSS contributor</strong>, and former QA. Most of my time
+      Hi there! I’m Alex, <strong>a frontend software developer</strong>,{' '}
+      <strong>OSS contributor</strong>, and former QA. Most of my time
       programming I'm working with{' '}
       <strong>JavaScript, TypeScript, React, Redux, GraphQL</strong>.
     </p>
