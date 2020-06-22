@@ -11,7 +11,7 @@ module.exports = {
   siteDescription: 'Software Engineer living and working in Berlin since 2015', // Website description used for RSS feeds/meta description tag.
   siteCover:
     'https://images.unsplash.com/photo-1510936111840-65e151ad71bb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bcd2bf5b6271090e70ea12980ddb02d7&auto=format&fit=crop&w=2567&q=80', // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
-  siteNavigation: false, // If navigation is enabled the Menu button will be visible
+  siteNavigation: true, // If navigation is enabled the Menu button will be visible
   siteRss: '/rss.xml', // Path to the RSS file.
   siteRssAuthor: 'Casper User', // The author name used in the RSS file
   // siteFBAppID: "1825356251115265", // optional, sets the FB Application ID for using app insights
@@ -56,6 +56,12 @@ module.exports = {
     {
       label: 'Dev.to',
       url: 'https://dev.to/alexandrg',
+    },
+  ],
+  menuLinks: [
+    {
+      name: 'About me',
+      link: '/about/',
     },
   ],
   // Copyright string for the footer of the website and RSS feed.
