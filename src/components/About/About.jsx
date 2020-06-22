@@ -1,6 +1,5 @@
 import React from 'react'
 import './About.css'
-import config from '../../../data/SiteConfig'
 
 const About = () => (
   <div className="about">
