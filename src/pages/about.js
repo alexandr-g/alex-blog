@@ -59,8 +59,6 @@ class AboutPage extends React.Component {
         : []
     const getAuthor = () => authorsEdges[0].node
 
-    console.log('--->', getAuthor())
-
     return (
       <Drawer className="author-template" isOpen={this.state.menuOpen}>
         <Helmet title={`About | ${config.siteTitle}`} />
