@@ -146,7 +146,9 @@
   height: 1px;
 }
 
-.nav a:link,
+.nav a:link {
+  text-decoration: none;
+}
 .nav a:visited {
   color: #b8b8b8;
 }
