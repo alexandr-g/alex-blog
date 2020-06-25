@@ -60,8 +60,12 @@ module.exports = {
   ],
   menuLinks: [
     {
-      name: 'About me',
+      name: 'About',
       link: '/about/',
+    },
+    {
+      name: 'Home',
+      link: '/',
     },
   ],
   // Copyright string for the footer of the website and RSS feed.

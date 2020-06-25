@@ -12,6 +12,7 @@ const Navigation = ({ config, onClose }) => {
         <ul>
           {config.menuLinks.map((item) => (
             <a href={item.link} key={item.name}>
+              <br />
               {item.name}
             </a>
           ))}
