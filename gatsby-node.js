@@ -2,6 +2,7 @@ const path = require('path')
 const _ = require('lodash')
 const fs = require('fs')
 const webpackLodashPlugin = require('lodash-webpack-plugin')
+const LoadablePlugin = require('@loadable/webpack-plugin')
 const {
   createPaginationPages,
   createLinkedPages,
@@ -186,4 +187,17 @@ exports.modifyWebpackConfig = ({ config, stage }) => {
   if (stage === 'build-javascript') {
     config.plugin('Lodash', webpackLodashPlugin, null)
   }
+}
+
+exports.onCreateWebpackConfig = ({
+  stage,
+  getConfig,
+  rules,
+  loaders,
+  plugins,
+  actions,
+}) => {
+  actions.setWebpackConfig({
+    plugins: [new LoadablePlugin()],
+  })
 }

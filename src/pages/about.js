@@ -1,7 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
+import loadable from '@loadable/component'
 
-import About from '../components/About/About'
 import Navigation from '../components/Navigation/Navigation'
 import SiteWrapper from '../layouts/SiteWrapper/SiteWrapper'
 import MainHeader from '../layouts/MainHeader/MainHeader'
@@ -18,6 +18,8 @@ import AuthorWebsite from '../components/AuthorWebsite/AuthorWebsite'
 import AuthorStats from '../components/AuthorStats/AuthorStats'
 
 import config from '../../data/SiteConfig'
+
+const AboutComponent = loadable(() => import('../components/About/About'))
 
 class AboutPage extends React.Component {
   state = {
@@ -80,7 +82,7 @@ class AboutPage extends React.Component {
           <AuthorProfile className="inner">
             <AuthorImage author={getAuthor()} />
             <AuthorName name={getAuthor().name} />
-            <About />
+            <AboutComponent />
             <AuthorMeta>
               <AuthorLocation location={getAuthor().location} />
               <AuthorWebsite url={getAuthor().url} />
