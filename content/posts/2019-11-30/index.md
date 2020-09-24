@@ -11,7 +11,7 @@ tags:
   - react custom hooks
 ---
 
-Imagine having two deeply nested React components down in the three which should know about the same state.
+Imagine having two deeply nested React components down in the components tree which should know about the same state.
 
 There are multiple ways to solve this problem. You can use Redux store or a relatively new `useContext()` React hook for this. A real-world example would be when you have a component that is responsible for controlling a side panel/bar. Your sidebar is located inside two different components that don't know about each other. You can open/close the sidebar and you want to remember its "state".
 
@@ -47,11 +47,11 @@ const SidebarContext = createContext({
       false,
       'You are trying to access the context outside of the provider.'
     )
-  }
+  },
 })
 ```
 
-If you're using Flow we can add a type for our context for type safety reasons. There is `Context` type in React:
+If you're using [Flow](https://flow.org/) we can add a type for our context for type safety reasons. There is `Context` type in React:
 
 ```javascript
 import React, { type Context, createContext } from 'react'
@@ -60,7 +60,7 @@ type SidebarT = 'comments' | 'information' | 'history'
 
 type SidebarContextT = {|
   sidebar: ?SidebarT,
-  onSidebarChange: (sidebar: ?SidebarT) => void
+  onSidebarChange: (sidebar: ?SidebarT) => void,
 |}
 
 const SidebarContext: Context<SidebarContextT> = createContext({
@@ -70,7 +70,7 @@ const SidebarContext: Context<SidebarContextT> = createContext({
       false,
       'You tried to change a panel but you have not wrapped your component with SidebarContextProvider.'
     )
-  }
+  },
 })
 ```
 
@@ -79,7 +79,7 @@ const SidebarContext: Context<SidebarContextT> = createContext({
 To provide context to our components we'll to create context provider for it and wrap our high-level component in it:
 
 ```javascript
-const SidebarContextProvider = children => {
+const SidebarContextProvider = (children) => {
   return (
     <SidebarContext.Provider value={{ sidebar, onSidebarChange }}>
       {children}
