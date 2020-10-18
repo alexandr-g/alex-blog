@@ -3,12 +3,13 @@ module.exports = {
   blogAuthorDir: 'authors', // The name of directory that contains your 'authors' folder.
   blogAuthorId: 'alex', // The default and fallback author ID used for blog posts without a defined author.
   siteTitle: 'Alexander Grischuk', // Site title.
-  siteTitleAlt: 'Alexander Grischuk - Software Engineer', // Alternative site title for SEO.
+  siteTitleAlt: 'Alexander Grischuk - Senior Frontend Engineer', // Alternative site title for SEO.
   siteLogo:
     'https://haysclark.github.io/gatsby-starter-casper/logos/logo-1024.png', // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
   siteUrl: 'http://grischuk.de', // Domain of your website without pathPrefix.
   pathPrefix: '/', // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
-  siteDescription: 'Software Engineer living and working in Berlin since 2015', // Website description used for RSS feeds/meta description tag.
+  siteDescription:
+    'Senior Frontend Engineer living and working in Berlin since 2015', // Website description used for RSS feeds/meta description tag.
   siteCover:
     'https://images.unsplash.com/photo-1510936111840-65e151ad71bb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bcd2bf5b6271090e70ea12980ddb02d7&auto=format&fit=crop&w=2567&q=80', // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
   siteNavigation: true, // If navigation is enabled the Menu button will be visible
@@ -70,7 +71,7 @@ module.exports = {
   ],
   // Copyright string for the footer of the website and RSS feed.
   copyright: {
-    label: 'Alexander Grischuk - Frontend Engineer - React', // Label used before the year
+    label: 'Alexander Grischuk - Senior Frontend Engineer - React', // Label used before the year
     year: '2018 - 2020', // optional, set specific copyright year or range of years, defaults to current year
     // url: "https://www.gatsbyjs.org/" // optional, set link address of copyright, defaults to site root
   },
