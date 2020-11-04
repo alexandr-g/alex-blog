@@ -13,8 +13,9 @@ module.exports = {
       description: config.siteDescription,
       image_url: `${config.siteUrl + pathPrefix}/logos/logo-512.png`,
       author: config.siteRssAuthor,
-      copyright: `${config.copyright.label} © ${config.copyright.year ||
-        new Date().getFullYear()}`,
+      copyright: `${config.copyright.label} © ${
+        config.copyright.year || new Date().getFullYear()
+      }`,
     },
   },
   plugins: [
@@ -24,6 +25,12 @@ module.exports = {
       options: {
         name: 'posts',
         path: `${__dirname}/content/${config.blogPostDir}`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://www.grischuk.de`,
       },
     },
     {
@@ -124,7 +131,7 @@ module.exports = {
           {
             serialize(ctx) {
               const rssMetadata = ctx.query.site.siteMetadata.rssMetadata
-              return ctx.query.allMarkdownRemark.edges.map(edge => ({
+              return ctx.query.allMarkdownRemark.edges.map((edge) => ({
                 categories: edge.node.frontmatter.tags,
                 date: edge.node.frontmatter.date,
                 title: edge.node.frontmatter.title,
