@@ -16,7 +16,7 @@ const About = () => (
       <p>
 
           <p>10+ years of combined experience in IT</p>
-          <p>4+ years of production experience with React</p>
+          <p>4+ years of production experience with <strong>React</strong></p>
           <p>6+ years of experience in Quality Assurance, Test Automation, and Software Testing</p>
 
           Full-time, remote, and relocation experience working in autonomous agile teams following Scrum/Kanban with over 60 nationalities from a small startups to medium and big companies.
