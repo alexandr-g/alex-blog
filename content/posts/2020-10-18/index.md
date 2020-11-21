@@ -9,12 +9,16 @@ tags:
   - javascript
   - dev
   - devtools
-  - react
   - devops
   - aws
-  - cloud
+  - aws configure
+  - amazonaws cli docker
+  - gitlab ci yml
+  - gitlab ci tutorial
+  - gitlab ci variables
   - cloud computing
   - aws cli
+  - aws s3 cli
   - amazon
   - ci
   - gitlab ci

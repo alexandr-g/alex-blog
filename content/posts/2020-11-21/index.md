@@ -7,13 +7,13 @@ tags:
   - coding
   - dev
   - devtools
-  - react
   - devops
   - itops
   - aws
-  - cloud
-  - cloud computing
+  - aws configure
+  - amazonaws cli docker
   - aws cli
+  - aws s3 cli
   - amazon
   - ci
   - gitlab ci
@@ -21,6 +21,9 @@ tags:
   - docker
   - aws-cli s3 sync
   - aws s3
+  - gitlab ci yml
+  - gitlab ci tutorial
+  - gitlab ci variables
 ---
 
 Cna you ever imagine that having `+` or `/` in your **private** AWS keys will cause an issue for you? Read on.
