@@ -1,5 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
+import CookieConsent from 'react-cookie-consent'
 import config from '../../data/SiteConfig'
 import './index.css'
 
@@ -47,6 +48,18 @@ export default class MainLayout extends React.Component {
           <meta name="description" content={config.siteDescription} />
         </Helmet>
         {children()}
+        <CookieConsent
+          location="bottom"
+          buttonText="Accept"
+          declineButtonText="Decline"
+          cookieName="gatsby-gdpr-google-analytics"
+          style={{ background: '#111' }}
+        >
+          <span style={{ fontSize: '14px' }}>
+            This website uses cookies and Google Analytics to enhance the user
+            experience.{' '}
+          </span>
+        </CookieConsent>
       </div>
     )
   }
