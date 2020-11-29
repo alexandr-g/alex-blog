@@ -57,6 +57,7 @@ export default class MainLayout extends React.Component {
           style={{ background: '#111' }}
           onDecline={() => {
             Cookies.remove('_ga', { path: '/', domain: '.grischuk.de' })
+            Cookies.remove('_gat', { path: '/', domain: '.grischuk.de' })
             Cookies.remove('_gid', { path: '/', domain: '.grischuk.de' })
           }}
           setDeclineCookie={false}
