@@ -56,9 +56,8 @@ export default class MainLayout extends React.Component {
           cookieName="gatsby-gdpr-google-analytics"
           style={{ background: '#111' }}
           onDecline={() => {
-            Cookies.remove('_ga')
-            Cookies.remove('_gat')
-            Cookies.remove('_gid')
+            Cookies.remove('_ga', { path: '/', domain: '.grischuk.de' })
+            Cookies.remove('_gid', { path: '/', domain: '.grischuk.de' })
           }}
           setDeclineCookie={false}
         >
