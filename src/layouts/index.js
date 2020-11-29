@@ -1,6 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import CookieConsent from 'react-cookie-consent'
+import CookieConsent, { Cookies } from 'react-cookie-consent'
 import config from '../../data/SiteConfig'
 import './index.css'
 
@@ -49,15 +49,21 @@ export default class MainLayout extends React.Component {
         </Helmet>
         {children()}
         <CookieConsent
+          enableDeclineButton
           location="bottom"
           buttonText="Accept"
           declineButtonText="Decline"
           cookieName="gatsby-gdpr-google-analytics"
           style={{ background: '#111' }}
+          onDecline={() => {
+            Cookies.remove('_ga')
+            Cookies.remove('_gat')
+            Cookies.remove('_gid')
+          }}
+          setDeclineCookie={false}
         >
           <span style={{ fontSize: '14px' }}>
-            This website uses cookies and Google Analytics to enhance the user
-            experience.{' '}
+            This website uses cookies to enhance your user experience{' '}
           </span>
         </CookieConsent>
       </div>
