@@ -12578,15 +12578,13 @@ react-scroll@1.8.1:
     lodash.throttle "^4.1.1"
     prop-types "^15.7.2"
 
-react-share@1.19.1:
-  version "1.19.1"
-  resolved "https://registry.yarnpkg.com/react-share/-/react-share-1.19.1.tgz#96926a4d474284e05ad851ee2ed191d0ed56e241"
-  integrity sha512-qPtimGEKczQqRIiIy4K5JL+IiWk62hNIcNDFGKr28jfs1FZ4aAwLSQJonkxuzUcrJkns7HQLMRLUPCNmTo++CA==
+react-share@4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/react-share/-/react-share-4.4.0.tgz#cabbf2111d7a907a888ab4d89d08410329efd5ee"
+  integrity sha512-POe8Ge/JT9Ew9iyW7CiYsCCWCb8uMJWqFl9S7W0fJ/oH5gBJNzukH0bL5vSr17KKG5h15d3GfKaoviI22BKeYA==
   dependencies:
-    babel-runtime "^6.6.1"
     classnames "^2.2.5"
     jsonp "^0.2.1"
-    prop-types "^15.5.8"
 
 react-side-effect@^1.1.0:
   version "1.1.5"
